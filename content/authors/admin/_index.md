@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Tomislav Duricic
+title: Tomislav Đuričić
 
 # Full name (for SEO)
 first_name: Tomislav
-last_name: Duricic
+last_name: Đuričić
 
 # Status emoji
-status:
-  icon: 
+#status:
+#  icon: 
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Researcher/Software Engineer/Machine Learning Engineer
+role: Researcher / Machine Learning Engineer / Software Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -44,12 +44,15 @@ interests:
 education:
   courses:
     - course: PhD Candidate in Computer Science
-      institution: Graz University of Technology
-      year: 2024 (expected)
-    - course: MSc in Software Engineering and Information Systems
+      institution: Institute of Interactive Systems and Data Science at the Graz University of Technology
+      year: 2018-2025 (expected)
+    - course: MSc in Computing | Profile - Software Engineering and Information Systems
       institution: Faculty of Electrical Engineering and Computing at the University of Zagreb
-      year: 2015
-    - course: BSc in Software Engineering and Information Systems
+      year: 2013-2015
+    - course: Erasmus+ Exchange Program
+      institution: Department of Informatics at the Karlsruhe Institute of Technology
+      year: 2012-2013
+    - course: BSc in Computing | Profile - Software Engineering and Information Systems
       institution: Faculty of Electrical Engineering and Computing at the University of Zagreb
       year: 2009-2013
 
@@ -75,7 +78,7 @@ social:
     link: https://github.com/tduricic/
   - icon: linkedin
     icon_pack: fab
-    link: hhttps://www.linkedin.com/in/tomislav-duricic-954b54172/
+    link: https://www.linkedin.com/in/tomislav-duricic-954b54172/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -90,7 +93,7 @@ email: 'tduricic90@gmail.com'
 highlight_name: true
 ---
 
-My name is Tomislav Duricic, and I am a PhD candidate and university assistant at [Graz University of Technology](https://www.tugraz.at/home). In addition to my academic role, I serve as a software/ML engineer and scientific researcher at the [Fair AI Lab](https://www.know-center.at/research/forschung-am-know-center/fair-ai/) in the [Know-Center](https://www.know-center.at/). There, I have played a significant role in various industry and EU-funded projects, and even lead internal and external projects.
+My name is Tomislav Đuričić, and I am a PhD candidate and university assistant at [Graz University of Technology](https://www.tugraz.at/home). In addition to my academic role, I work as a software/ML engineer and scientific researcher at the [Fair AI Lab](https://www.know-center.at/research/forschung-am-know-center/fair-ai/) in the [Know-Center](https://www.know-center.at/). There, I have played a significant role in various industry and EU-funded projects, and even lead internal and external projects.
 
 I earned my MSc and BSc degrees in Software Engineering and Information Systems from the [Faculty of Electrical Engineering and Computing](https://www.fer.unizg.hr/en) at the [University of Zagreb](http://www.unizg.hr/homepage/). Currently, my PhD research at the [Institute of Interactive Systems and Data Science](https://www.tugraz.at/institute/isds/home) focuses on *"Sparsity and Interpretability Issues in Social-based Recommender Systems."* My primary research interests encompass recommender systems, social and complex networks, graph neural networks, user modeling and personalization, information retrieval, machine learning, natural language processing, and computational social science.
 
