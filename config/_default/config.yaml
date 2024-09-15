@@ -4,7 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: # Website name
-baseURL: 'hilarious-malabi-6f4d0b.netlify.app' # Website URL
+#baseURL: 'hilarious-malabi-6f4d0b.netlify.app' # Website URL
+baseURL: 'https://tduricic.me/'
 
 ############################
 ## LANGUAGE
