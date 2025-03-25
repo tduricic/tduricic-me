@@ -1,92 +1,3757 @@
-<!doctype html><!-- This site was created with Wowchemy. https://www.wowchemy.com --><!-- Last Published: September 15, 2024 --><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.7.0 for Hugo"><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload='this.media="all"'><link rel=stylesheet href=/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin=anonymous media=print onload='this.media="all"'><link rel=stylesheet href=/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css><link rel=stylesheet href=/css/libs/chroma/github-light.min.css title=hl-light media=print onload='this.media="all"'><link rel=stylesheet href=/css/libs/chroma/dracula.min.css title=hl-dark media=print onload='this.media="all"' disabled><meta name=author content="Tomislav Đuričić"><meta name=description content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder."><link rel=alternate hreflang=en-us href=https://tduricic.me/><link rel=canonical href=https://tduricic.me/><link rel=manifest href=/manifest.webmanifest><link rel=icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png><meta name=theme-color content="#1565c0"><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@wowchemy"><meta property="twitter:creator" content="@wowchemy"><meta property="twitter:image" content="https://tduricic.me/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:site_name" content><meta property="og:url" content="https://tduricic.me/"><meta property="og:title" content><meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder."><meta property="og:image" content="https://tduricic.me/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us"><meta property="og:updated_time" content="2022-10-24T00:00:00+00:00"><script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","potentialAction":{"@type":"SearchAction","target":"https://tduricic.me/?q={search_term_string}","query-input":"required name=search_term_string"},"url":"https://tduricic.me/"}</script><script src=https://identity.netlify.com/v1/netlify-identity-widget.js></script>
-<link rel=alternate href=/index.xml type=application/rss+xml title><title></title></head><body id=top data-spy=scroll data-offset=70 data-target=#navbar-main class=page-wrapper data-wc-page-id=3976528693a0108357f4928017600865><script src=/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class="page-header header--fixed"><header><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/></a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
-<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/></a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/#about data-target=#about><span>Home</span></a></li><li class=nav-item><a class=nav-link href=/#projects data-target=#projects><span>Projects</span></a></li><li class=nav-item><a class=nav-link href=/#publications data-target=#publications><span>Publications</span></a></li><li class=nav-item><a class=nav-link href=/#talks data-target=#talks><span>Talks</span></a></li><li class=nav-item><a class=nav-link href=/#contact data-target=#contact><span>Contact</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class="nav-item d-none d-lg-inline-flex"><a class=nav-link href=https://twitter.com/djurazzi data-toggle=tooltip data-placement=bottom title="Follow me on Twitter" target=_blank rel=noopener aria-label="Follow me on Twitter"><i class="fab fa-twitter" aria-hidden=true></i></a></li><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences"><i class="fas fa-moon" aria-hidden=true></i></a><div class=dropdown-menu><a href=# class="dropdown-item js-set-theme-light"><span>Light</span></a>
-<a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
-<a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav></header></div><div class=page-body><span class="js-widget-page d-none"></span><section id=about class="home-section wg-about-biography"><div class=home-section-bg></div><div class=container><div class=row><div class="col-12 col-lg-4"><div id=profile><img class="avatar avatar-circle" width=270 height=270 src=/authors/admin/avatar_hua5a0c80256407420e6efb651c5d1a37b_12351130_270x270_fill_q75_lanczos_center.jpg alt="Tomislav Đuričić"><div class=portrait-title><h2>Tomislav Đuričić</h2><h3>Researcher / Machine Learning Engineer / Software Engineer</h3><h3><a href=https://www.know-center.at/ target=_blank rel=noopener><span>Know Center Research</span></a></h3><h3><a href=https://www.tugraz.at/institute/isds/home target=_blank rel=noopener><span>Institute of Interactive Systems and Data Science</span></a></h3><h3><a href=https://www.tugraz.at/home target=_blank rel=noopener><span>Graz University of Technology</span></a></h3></div><ul class=network-icon aria-hidden=true><li><a href=/#contact aria-label=envelope><i class="fas fa-envelope big-icon"></i></a></li><li><a href=https://twitter.com/djurazzi target=_blank rel=noopener aria-label=twitter><i class="fab fa-twitter big-icon"></i></a></li><li><a href="https://scholar.google.com/citations?user=_mY5j2UAAAAJ&amp;hl=en&amp;oi=sra" target=_blank rel=noopener aria-label=graduation-cap><i class="fas fa-graduation-cap big-icon"></i></a></li><li><a href=https://github.com/tduricic/ target=_blank rel=noopener aria-label=github><i class="fab fa-github big-icon"></i></a></li><li><a href=https://www.linkedin.com/in/tomislav-duricic-954b54172/ target=_blank rel=noopener aria-label=linkedin><i class="fab fa-linkedin big-icon"></i></a></li><li><a href=/uploads/resume.pdf aria-label=cv><i class="ai ai-cv big-icon"></i></a></li></ul></div></div><div class="col-12 col-lg-8"><h1>Biography</h1><div class=article-style><p>My name is Tomislav Đuričić, and I am a PhD candidate and university assistant at <a href=https://www.tugraz.at/home target=_blank rel=noopener>Graz University of Technology</a>. In addition to my academic role, I work as a software/ML engineer and scientific researcher at the <a href=https://www.know-center.at/research/forschung-am-know-center/fair-ai/ target=_blank rel=noopener>Fair AI Lab</a> in the <a href=https://www.know-center.at/ target=_blank rel=noopener>Know Center Research</a>. There, I have played a significant role in various industry and EU-funded projects, and even lead internal and external projects.</p><p>I earned my MSc and BSc degrees in Software Engineering and Information Systems from the <a href=https://www.fer.unizg.hr/en target=_blank rel=noopener>Faculty of Electrical Engineering and Computing</a> at the <a href=http://www.unizg.hr/homepage/ target=_blank rel=noopener>University of Zagreb</a>. Currently, my PhD research at the <a href=https://www.tugraz.at/institute/isds/home target=_blank rel=noopener>Institute of Interactive Systems and Data Science</a> focuses on <em>&ldquo;Sparsity and Interpretability Issues in Social-based Recommender Systems.&rdquo;</em> My primary research interests encompass recommender systems, social and complex networks, graph neural networks, user modeling and personalization, information retrieval, machine learning, natural language processing, and computational social science.</p><p style=text-align:justify>Outside of work and academics, I enjoy spending time on the <a href=https://www.crohoops.com/team/gold-diggers/ target=_blank rel=noopener>basketball court</a>, running on the track, or attending music events.</p></div><div class=row><div class=col-md-5><div class=section-subheading>Interests</div><ul class="ul-interests fa-ul mb-0"><li><i class="fa-li fa-solid fa-book"></i>
-Recommender Systems</li><li><i class="fa-li fa-solid fa-book"></i>
-Network Science</li><li><i class="fa-li fa-solid fa-book"></i>
-Graph Neural Networks</li><li><i class="fa-li fa-solid fa-book"></i>
-User Modeling</li><li><i class="fa-li fa-solid fa-book"></i>
-Information Retrieval</li><li><i class="fa-li fa-solid fa-book"></i>
-Machine Learning</li><li><i class="fa-li fa-solid fa-book"></i>
-Natural Language Processing</li><li><i class="fa-li fa-solid fa-book"></i>
-Trustworthy AI</li><li><i class="fa-li fa-solid fa-book"></i>
-Computational Social Science</li></ul></div><div class=col-md-7><div class=section-subheading>Education</div><ul class="ul-edu fa-ul mb-0"><li><i class="fa-li fa-solid fa-graduation-cap"></i><div class=description><p class=course>PhD Candidate in Computer Science, 2018-2025 (expected)</p><p class=institution>Institute of Interactive Systems and Data Science at the Graz University of Technology</p></div></li><li><i class="fa-li fa-solid fa-graduation-cap"></i><div class=description><p class=course>MSc in Computing | Profile - Software Engineering and Information Systems, 2013-2015</p><p class=institution>Faculty of Electrical Engineering and Computing at the University of Zagreb</p></div></li><li><i class="fa-li fa-solid fa-graduation-cap"></i><div class=description><p class=course>Erasmus+ Exchange Program, 2012-2013</p><p class=institution>Department of Informatics at the Karlsruhe Institute of Technology</p></div></li><li><i class="fa-li fa-solid fa-graduation-cap"></i><div class=description><p class=course>BSc in Computing | Profile - Software Engineering and Information Systems, 2009-2013</p><p class=institution>Faculty of Electrical Engineering and Computing at the University of Zagreb</p></div></li></ul></div></div></div></div></div></section><section id=section-features class="home-section wg-features"><div class=home-section-bg></div><div class=container><div class="row featurette"><div class="col-md-12 section-heading"><h1>Skills</h1></div><div class="col-12 col-sm-4"><div class=featurette-icon><i class="fas fa-chart-line"></i></div><div class=section-subheading>Research & Problem-solving</div><p>Literature synthesis, experimental design, data interpretation, critical thinking, effective communication of results, LaTeX, hypothesis testing, statistical analysis, research collaboration, grant proposal writing, knowledge of relevant research methodologies, and presentation skills for both technical and non-technical audiences.</p></div><div class="col-12 col-sm-4"><div class=featurette-icon><i class="fas fa-robot"></i></div><div class=section-subheading>ML & Data Science</div><p>Supervised/unsupervised learning, recommender systems (scikit-surprise, Elliot), deep and graph learning frameworks (PyTorch, PyG), data preprocessing and manipulation (pandas, NumPy, NetworkX), feature engineering, model evaluation and selection (scikit-learn, cross-validation), data visualization (Matplotlib, Seaborn), natural language processing (NLTK, spaCy, Transformers), time series analysis, anomaly detection, and dimensionality reduction techniques (PCA, t-SNE).</p></div><div class="col-12 col-sm-4"><div class=featurette-icon><i class="fas fa-code"></i></div><div class=section-subheading>Software Engineering</div><p>Proficiency in object-oriented programming using Python and Java, software design patterns, database management with SQL and NoSQL (MySQL, PostgreSQL, Apache Solr, MongoDB), web development with Spring Boot, RESTful API design, deployment and management of applications on Linux servers, containerization and virtualization (Docker, Kubernetes), cloud services (AWS, GCP), and version control (Git).</p></div></div></div></section><section id=experience class="home-section wg-experience"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Experience</h1></div><div class="col-12 col-lg-8"><div class="row experience"><div class="col-auto text-center flex-column d-none d-sm-flex"><div class="row h-50"><div class=col>&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2><span class="badge badge-pill border exp-fill">&nbsp;</span></div><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2"><div class=card><div class=card-body><div class="d-flex align-content-start"><div class="mr-2 mb-2"><a href=https://www.tugraz.at/home target=_blank rel=noopener><img src=/media/icons/brands/org-tug.svg width=56px height=56px alt="Graz University of Technology" loading=lazy></a></div><div><div class="section-subheading card-title exp-title text-muted my-0">University Assistant</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://www.tugraz.at/home target=_blank rel=noopener>Graz University of Technology</a></div><div class="text-muted exp-meta">October 2018 –
-Present
-<span class=middot-divider></span>
-<span>Graz, Austria</span></div></div></div><div class=card-text><p>Responsibilities include:</p><ul><li>Conducting research in my area of study</li><li>Collaborating with other researchers or research teams</li><li>Assisting with grant proposals and funding applications</li><li>Presenting research findings at conferences or events</li><li>Teaching and mentoring undergraduate or graduate students</li></ul></div></div></div></div></div><div class="row experience"><div class="col-auto text-center flex-column d-none d-sm-flex"><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2><span class="badge badge-pill border exp-fill">&nbsp;</span></div><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2"><div class=card><div class=card-body><div class="d-flex align-content-start"><div class="mr-2 mb-2"><a href=https://www.know-center.at/ target=_blank rel=noopener><img src=/media/icons/brands/org-kc.svg width=56px height=56px alt=Know-Center loading=lazy></a></div><div><div class="section-subheading card-title exp-title text-muted my-0">Researcher / Project Lead / Software Engineer / ML Engineer / Data Scientist</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://www.know-center.at/ target=_blank rel=noopener>Know-Center</a></div><div class="text-muted exp-meta">March 2016 –
-Present
-<span class=middot-divider></span>
-<span>Graz, Austria</span></div></div></div><div class=card-text><p>Responsibilities include:</p><ul><li>Conducting research in various fields related to data science and machine learning</li><li>Leading and managing projects related to software engineering, machine learning, and data science, including project planning, implementation, and delivery</li><li>Developing software solutions and implementing machine learning models to solve complex business problems</li><li>Analyzing and interpreting data to gain insights and improve decision-making processes</li><li>Collaborating with internal and external stakeholders to deliver successful project outcomes, including grant proposal writing, presentations, and event organization</li></ul></div></div></div></div></div><div class="row experience"><div class="col-auto text-center flex-column d-none d-sm-flex"><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2><span class="badge badge-pill border">&nbsp;</span></div><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2"><div class=card><div class=card-body><div class="d-flex align-content-start"><div class="mr-2 mb-2"><a href=https://www.know-center.at/ target=_blank rel=noopener><img src=/media/icons/brands/org-kc.svg width=56px height=56px alt=Know-Center loading=lazy></a></div><div><div class="section-subheading card-title exp-title text-muted my-0">ERASMUS+ internship</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://www.know-center.at/ target=_blank rel=noopener>Know-Center</a></div><div class="text-muted exp-meta">March 2015 –
-August 2015
-<span class=middot-divider></span>
-<span>Graz, Austria</span></div></div></div><div class=card-text>I researched real-time and trust-based recommender systems and wrote a master&rsquo;s thesis on &ldquo;Real-Time Recommendations Based on Social Trust&rdquo; under the guidance of Prof. Dr. Sc. Vedran Podobnik, Assoc.-Prof. Dr. Elisabeth Lex, and Dr. Emanuel Lacić. My thesis results were integrated into the internal ScaR framework (Scalable Recommendation-as-a-service).</div></div></div></div></div><div class="row experience"><div class="col-auto text-center flex-column d-none d-sm-flex"><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2><span class="badge badge-pill border">&nbsp;</span></div><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2"><div class=card><div class=card-body><div class="d-flex align-content-start"><div class="mr-2 mb-2"><a href=https://www.fzi.de/en/ target=_blank rel=noopener><img src=/media/icons/brands/org-fzi.svg width=56px height=56px alt="FZI Research Center for Information Technology" loading=lazy></a></div><div><div class="section-subheading card-title exp-title text-muted my-0">Junior Android Developer</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://www.fzi.de/en/ target=_blank rel=noopener>FZI Research Center for Information Technology</a></div><div class="text-muted exp-meta">January 2013 –
-October 2013
-<span class=middot-divider></span>
-<span>Karlsruhe, Germany</span></div></div></div><div class=card-text>During the Erasmus+ student exchange program, I worked with the Informatics Institute of the Faculty of Economics and Business Engineering and FZI Research Center to develop a mobile app for capturing real-time student feedback. My Bachelor&rsquo;s thesis, titled &ldquo;Mobile Live Interest Meter Application,&rdquo; was supervised by Prof. Dr. Rudi Studer and Dr. Verónica Rivera Pelayo.</div></div></div></div></div><div class="row experience"><div class="col-auto text-center flex-column d-none d-sm-flex"><div class="row h-50"><div class="col border-right">&nbsp;</div><div class=col>&nbsp;</div></div><div class=m-2><span class="badge badge-pill border">&nbsp;</span></div><div class="row h-50"><div class=col>&nbsp;</div><div class=col>&nbsp;</div></div></div><div class="col py-2"><div class=card><div class=card-body><div class="d-flex align-content-start"><div class="mr-2 mb-2"><a href=https://www.ericsson.hr/ target=_blank rel=noopener><img src=/media/icons/brands/org-eri.svg width=56px height=56px alt="Ericsson Nikola Tesla d.d." loading=lazy></a></div><div><div class="section-subheading card-title exp-title text-muted my-0">Student developer in Ericsson Nikola Tesla Summer Camp</div><div class="section-subheading card-title exp-company text-muted my-0"><a href=https://www.ericsson.hr/ target=_blank rel=noopener>Ericsson Nikola Tesla d.d.</a></div><div class="text-muted exp-meta">July 2014 –
-September 2014
-<span class=middot-divider></span>
-<span>Zagreb, Croatia / Budapest, Hungary</span></div></div></div><div class=card-text>During a 5-week summer internship at Ericsson Nikola Tesla Summer Camp, I integrated a code plagiarism toolkit into the company&rsquo;s internal IDE using Javascript, HTML, CSS, and the Dojo toolkit. The program included 3 weeks in Zagreb and 2 weeks in Budapest, providing valuable experience in software development and insight into the telecommunications industry.</div></div></div></div></div></div></div></div></section><section id=publications class="home-section wg-collection"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Recent Publications</h1></div><div class="col-12 col-lg-8"><div class="alert alert-note"><div>Quickly discover relevant content by <a href=./publication/>filtering publications</a>.</div></div><div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author"><span class=author-highlighted>Tomislav Đuričić</span></span>
-(2019).
-<a href=/publication/preprint/>An example preprint / working paper</a>.<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=http://arxiv.org/pdf/1512.04133v1 target=_blank rel=noopener>PDF</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/wowchemy/wowchemy-hugo-themes target=_blank rel=noopener>Code</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/# target=_blank rel=noopener>Dataset</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/# target=_blank rel=noopener>Poster</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/slides/example/ target=_blank>Slides</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/# target=_blank rel=noopener>Video</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/# target=_blank rel=noopener>Source Document</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=http://example.org target=_blank rel=noopener>Custom Link</a></p></div><div class="pub-list-item view-citation" style=margin-bottom:1rem><i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author"><span class=author-highlighted>Tomislav Đuričić</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i></span>
-(2015).
-<a href=/publication/journal-article/>An example journal article</a>.
-<em>Journal of Source Themes, 1</em>(1).<p><a class="btn btn-outline-primary btn-page-header btn-sm" href=http://arxiv.org/pdf/1512.04133v1 target=_blank rel=noopener>PDF</a>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/journal-article/cite.bib>Cite</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/wowchemy/wowchemy-hugo-themes target=_blank rel=noopener>Code</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=/slides/example/ target=_blank>Slides</a></p></div></div></div></div></section><section id=projects class="home-section wg-portfolio"><div class=home-section-bg></div><div class=container><div class="row justify-content-center"><div class="section-heading col-12 mb-3 text-center"><h1 class=mb-0>Projects</h1></div><div class=col-12><span class="d-none default-project-filter">*</span><div class=project-toolbar><div class=project-filters><div class="btn-toolbar d-flex justify-content-center"><div class="btn-group flex-wrap"><a href=# data-filter=* class="btn btn-primary btn-lg active">All</a>
-<a href=# data-filter=.js-id-deep-learning class="btn btn-primary btn-lg">Deep Learning</a>
-<a href=# data-filter=.js-id-demo class="btn btn-primary btn-lg">Other</a></div></div></div></div><div class="isotope projects-container row js-layout-row project-showcase"><div class="col-12 isotope-item js-id-deep-learning"><div class="col-lg-12 mb-5 view-showcase"><div class="row align-items-center"><div class="col-12 col-md-6"><div class="section-subheading article-title mb-0 mt-0"><a href=/project/example/>Example Project</a></div><div class=article-style>An example of using the in-built project page.</div><div class=btn-links><a class="btn btn-outline-primary btn-page-header" href=/slides/example/ target=_blank>Slides</a>
-<a class="btn btn-outline-primary btn-page-header" href=https://twitter.com/georgecushen target=_blank rel=noopener><i class="fab fa-twitter mr-1"></i>Follow</a></div></div><div class="col-12 col-md-6 order-first"><a href=/project/example/><img src=/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_540x0_resize_q75_h2_lanczos.webp height=304 width=540 alt="Example Project" loading=lazy></a></div></div></div></div><div class="col-12 isotope-item js-id-demo"><div class="col-lg-12 mb-5 view-showcase"><div class="row align-items-center"><div class="col-12 col-md-6"><div class="section-subheading article-title mb-0 mt-0"><a href=https://example.org>External Project</a></div><div class=article-style>An example of linking directly to an external project website using <code>external_link</code>.</div><div class=btn-links></div></div><div class="col-12 col-md-6 order-first"><a href=https://example.org><img src=/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_540x0_resize_q75_h2_lanczos.webp height=304 width=540 alt="External Project" loading=lazy></a></div></div></div></div></div></div></div></div></section><section id=teaching class="home-section wg-accomplishments"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Teaching</h1></div><div class="col-12 col-lg-8"><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">Data Science in Business 2</div><div class="card-subtitle my-0 article-metadata"><a href=https://www.tugraz.at/studium/studienangebot/masterstudien/computational-social-systems target=_blank rel=noopener>Graz University of Technology and University of Graz</a><span class=middot-divider></span>
-Oct 2022
-– Feb 2023</div><div class=card-text>As one of three lecturers, I was responsible for instructing and grading practical sessions for the Data Science in Business 2 course, which is part of the Computational Social Systems Master&rsquo;s program offered jointly by Graz University of Technology and the University of Graz. During the course, I taught students about natural language processing, covering text cleaning, feature engineering, and popular Python libraries like Transformers. The final project involved working with financial textual data and helped students develop critical thinking and problem-solving skills.</div></div></div><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">Complexity Science</div><div class="card-subtitle my-0 article-metadata"><a href=https://www.tugraz.at/en/studying-and-teaching/degree-and-certificate-programmes/masters-degree-programmes/information-and-computer-engineering/ target=_blank rel=noopener>Graz University of Technology</a><span class=middot-divider></span>
-Oct 2018
-– Feb 2019</div><div class=card-text>I served as a lecturer in the complexity science course, where I assisted my mentor in covering the topics presented in Chapter 7 of &ldquo;Complexity - A Guided Tour&rdquo; by Melanie Mitchell. My responsibilities included creating and grading student assignments related to the principles of complexity, fitness landscapes, and evolution of cooperation.</div></div></div></div></div></div></section><section id=services class="home-section wg-accomplishments"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Services</h1></div><div class="col-12 col-lg-8"><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">Session chairing and workshop organization</div><div class="card-subtitle my-0 article-metadata"><span class=middot-divider></span>
-Oct 2022
-– Feb 2023</div></div></div><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">Program Committee Membership and Reviewing</div><div class="card-subtitle my-0 article-metadata"><span class=middot-divider></span>
-Feb 2019
-– Oct 2018</div><div class=card-text><p>Responsibilities include:</p><ul><li>Conducting research in various fields related to data science and machine learning</li><li>Leading and managing projects related to software engineering, machine learning, and data science, including project planning, implementation, and delivery</li><li>Developing software solutions and implementing machine learning models to solve complex business problems</li><li>Analyzing and interpreting data to gain insights and improve decision-making processes</li><li>Collaborating with internal and external stakeholders to deliver successful project outcomes, including grant proposal writing, presentations, and event organization</li></ul></div></div></div></div></div></div></section><section id=awards class="home-section wg-accomplishments"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Awards & Grants</h1></div><div class="col-12 col-lg-8"><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">Best Presentation Award</div><div class="card-subtitle my-0 article-metadata"><a href=https://www.tugraz.at/institute/isds/home target=_blank rel=noopener>Know-Center and Institute of Interactive Systems and Data Science</a><span class=middot-divider></span>
-Sep 2022</div><div class=card-text>I received the Best Presentation Award at the institute&rsquo;s PhD retreat for the presentation of my PhD topic.</div></div></div><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">Travel Grant</div><div class="card-subtitle my-0 article-metadata"><a href=http://symposium.computationalsocialscience.eu/2019/ target=_blank rel=noopener>Euro CSS</a><span class=middot-divider></span>
-Sep 2019</div><div class=card-text>I received a travel grant to attend the European Symposium on Societal Challenges in Computational Social Science in Zurich, which focused on &ldquo;Polarization and Radicalization.&rdquo;</div></div></div><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">Travel Grant</div><div class="card-subtitle my-0 article-metadata"><a href=http://summerschool.computationalsocialscience.eu/2019/ target=_blank rel=noopener>Euro CSS</a><span class=middot-divider></span>
-Sep 2019</div><div class=card-text>I received a travel grant to attend the third summer school on analyzing multimedia data in Berlin. The program covered computer vision, spatial and temporal analysis of urban spaces, and multimedia content models.</div></div></div><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">Erasmus+ Traineeship Scholarship</div><div class="card-subtitle my-0 article-metadata"><a href=https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/traineeships-abroad-for-students target=_blank rel=noopener>Erasmus+</a><span class=middot-divider></span>
-Feb 2015
-– Aug 2015</div><div class=card-text>With an Erasmus+ traineeship scholarship, I completed a 6-month internship at the Know Center Research, finishing my master&rsquo;s thesis and gaining valuable skills.</div></div></div><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">Erasmus+ Student Exchange Scholarship</div><div class="card-subtitle my-0 article-metadata"><a href=https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/studying-abroad target=_blank rel=noopener>Erasmus+</a><span class=middot-divider></span>
-Sep 2011
-– Aug 2012</div><div class=card-text>I received an Erasmus+ scholarship to study for two semesters at the Karlsruhe Institute of Technology.</div></div></div></div></div></div></section><section id=theses class="home-section wg-accomplishments"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Co-Supervised Theses</h1></div><div class="col-12 col-lg-8"><div class="card experience course"><div class=card-body><div class="section-subheading card-title exp-title text-muted my-0">Volker Seiser, &ldquo;Analysis of cross-platform user behavior on the example of Reddit and YouTube comments.&rdquo;</div><div class="card-subtitle my-0 article-metadata"><span class=middot-divider></span>
-Sep 2020
-– Mar 2021</div></div></div></div></div></div></section><section id=talks class="home-section wg-collection"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Recent & Upcoming Talks</h1></div><div class="col-12 col-lg-8"><div class="media stream-item view-compact"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href=/talk/presentation-at-the-ebdvf-2021/>Presentation at the EBDVF 2021</a></div><a href=/talk/presentation-at-the-ebdvf-2021/ class=summary-link><div class=article-style>I gave a presentation on the topic of &ldquo;Big Data and AI for the Financial Sector - challenges and opportunities&rdquo; at the EBDVF 2021</div></a><div class="stream-meta article-metadata"><div><span>Dec 1, 2021 12:30 PM &mdash; 2:00 PM</span>
-<span class=middot-divider></span>
-<span>Online</span></div></div><div class=btn-links><a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtu.be/XjZGip2TQec?t=895" target=_blank rel=noopener>Video</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://european-big-data-value-forum.eu/2021-edition/programme/?edition_session_id=6267" target=_blank rel=noopener>EBDVF 2021</a></div></div><div class=ml-3></div></div><div class="media stream-item view-compact"><div class=media-body><div class="section-subheading article-title mb-0 mt-0"><a href=/talk/panel-discussion-at-zagreb-connect-2021/>Panel Discussion at Zagreb Connect 2021</a></div><a href=/talk/panel-discussion-at-zagreb-connect-2021/ class=summary-link><div class=article-style>I participated in a panel discussion at Zagreb Connect, where we discussed building successful and sustainable startup ecosystems.</div></a><div class="stream-meta article-metadata"><div><span>Nov 23, 2021 10:00 AM &mdash; 2:15 PM</span>
-<span class=middot-divider></span>
-<span>ZICER</span></div></div><div class=btn-links><a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtu.be/hA8R0lv9qMQ?t=13975" target=_blank rel=noopener>Video</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://www.zicer.hr/zagreb-connect/ target=_blank rel=noopener>Zagreb Connect</a></div></div><div class=ml-3></div></div></div></div></div></section><section id=section-tag_cloud class="home-section wg-tag-cloud"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Popular Topics</h1></div><div class="col-12 col-lg-8"><div class=tag-cloud><a href=/tag/academic/ style=font-size:.8rem>Academic</a>
-<a href=/tag/deep-learning/ style=font-size:.8rem>Deep Learning</a>
-<a href=/tag/demo/ style=font-size:.8rem>Demo</a>
-<a href=/tag/source-themes/ style=font-size:1.8725805810714777rem>Source Themes</a>
-<a href=/tag/%E5%BC%80%E6%BA%90/ style=font-size:.8rem>开源</a></div></div></div></div></section><section id=contact class="home-section wg-contact"><div class=home-section-bg></div><div class=container><div class=row><div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start"><h1 class=mb-0>Contact</h1></div><div class="col-12 col-lg-8"><p>Have a question or want to work together? I&rsquo;d love to hear from you! Please use the form below to send me a message, and I will get back to you as soon as possible.</p><div class=mb-3><form name=contact method=post netlify netlify-honeypot=_gotcha><div class="form-group form-inline"><label class=sr-only for=inputName>Name</label>
-<input type=text name=name class="form-control w-100" id=inputName placeholder=Name required></div><div class="form-group form-inline"><label class=sr-only for=inputEmail>Email</label>
-<input type=email name=email class="form-control w-100" id=inputEmail placeholder=Email required></div><div class=form-group><label class=sr-only for=inputMessage>Message</label>
-<textarea name=message class=form-control id=inputMessage rows=5 placeholder=Message required></textarea></div><div class=d-none><label>Do not fill this field unless you are a bot: <input name=_gotcha></label></div><button type=submit class="btn btn-primary px-3 py-2 w-100">Send</button></form></div><ul class=fa-ul><li><i class="fa-li fas fa-envelope fa-2x" aria-hidden=true></i>
-<span id=person-email><a href=mailto:tduricic90@gmail.com>tduricic90@gmail.com</a></span></li><li><i class="fa-li fas fa-phone fa-2x" aria-hidden=true></i>
-<span id=person-telephone><a href=tel:+43%20316%20873-30844>+43 316 873-30844</a></span></li><li><i class="fa-li fas fa-map-marker fa-2x" aria-hidden=true></i>
-<span id=person-address>Sandgasse 36, Graz, 8010</span></li><li><i class="fa-li fab fa-linkedin fa-2x" aria-hidden=true></i>
-<a href=https://twitter.com/Twitter target=_blank rel=noopener>DM Me</a></li></ul></div></div></div></section></div><div class=page-footer><div class=container><footer class=site-footer><p class="powered-by copyright-license-text">© 2024 Me. This work is licensed under <a href=https://creativecommons.org/licenses/by-nc-nd/4.0 rel="noopener noreferrer" target=_blank>CC BY NC ND 4.0</a></p><p class="powered-by footer-license-icons"><a href=https://creativecommons.org/licenses/by-nc-nd/4.0 rel="noopener noreferrer" target=_blank aria-label="Creative Commons"><i class="fab fa-creative-commons fa-2x" aria-hidden=true></i>
-<i class="fab fa-creative-commons-by fa-2x" aria-hidden=true></i>
-<i class="fab fa-creative-commons-nc fa-2x" aria-hidden=true></i>
-<i class="fab fa-creative-commons-nd fa-2x" aria-hidden=true></i></a></p><p class=powered-by>Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-themes target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div></div><script src=/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js></script>
-<script src=https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin=anonymous></script>
-<script src=https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin=anonymous></script>
-<script id=search-hit-fuse-template type=text/x-template>
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: September 15, 2024 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Tomislav Đuričić" />
+
+
+
+
+
+  
+
+<meta name="description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="hilarious-malabi-6f4d0b.netlify.app/" />
+<link rel="canonical" href="hilarious-malabi-6f4d0b.netlify.app/" />
+
+
+
+  <link rel="manifest" href="hilarious-malabi-6f4d0b.netlify.app/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="" />
+<meta property="og:url" content="hilarious-malabi-6f4d0b.netlify.app/" />
+<meta property="og:title" content="" />
+<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "hilarious-malabi-6f4d0b.netlify.app?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "hilarious-malabi-6f4d0b.netlify.app"
+}
+</script>
+
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  
+    <link rel="alternate" href="hilarious-malabi-6f4d0b.netlify.app/index.xml" type="application/rss+xml" title="" />
+  
+
+  
+
+
+  
+  <title></title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="3976528693a0108357f4928017600865" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/djurazzi" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+<span class="js-widget-page d-none"></span>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="about" class="home-section wg-about-biography  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle"
+           width="270" height="270"
+           src="/hilarious-malabi-6f4d0b.netlify.app/authors/admin/avatar_hua5a0c80256407420e6efb651c5d1a37b_12351130_270x270_fill_q75_lanczos_center.jpg" alt="Tomislav Đuričić">
+      
+
+      <div class="portrait-title">
+
+        <h2>Tomislav Đuričić</h2>
+
+        <h3>Researcher / Machine Learning Engineer / Software Engineer</h3>
+
+        
+        <h3>
+          <a href="https://www.know-center.at/" target="_blank" rel="noopener">
+          <span>Know-Center</span>
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="https://www.tugraz.at/institute/isds/home" target="_blank" rel="noopener">
+          <span>Institute of Interactive Systems and Data Science</span>
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="https://www.tugraz.at/home" target="_blank" rel="noopener">
+          <span>Graz University of Technology</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/#contact"  aria-label="envelope">
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://twitter.com/djurazzi" target="_blank" rel="noopener" aria-label="twitter">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=_mY5j2UAAAAJ&amp;hl=en&amp;oi=sra" target="_blank" rel="noopener" aria-label="graduation-cap">
+            <i class="fas fa-graduation-cap big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/tduricic/" target="_blank" rel="noopener" aria-label="github">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/in/tomislav-duricic-954b54172/" target="_blank" rel="noopener" aria-label="linkedin">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="/hilarious-malabi-6f4d0b.netlify.app/uploads/resume.pdf"  aria-label="cv">
+            <i class="ai ai-cv big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>Biography</h1>
+
+    
+    <div class="article-style">
+      <p>My name is Tomislav Đuričić, and I am a PhD candidate and university assistant at <a href="https://www.tugraz.at/home" target="_blank" rel="noopener">Graz University of Technology</a>. In addition to my academic role, I work as a software/ML engineer and scientific researcher at the <a href="https://www.know-center.at/research/forschung-am-know-center/fair-ai/" target="_blank" rel="noopener">Fair AI Lab</a> in the <a href="https://www.know-center.at/" target="_blank" rel="noopener">Know-Center</a>. There, I have played a significant role in various industry and EU-funded projects, and even lead internal and external projects.</p>
+<p>I earned my MSc and BSc degrees in Software Engineering and Information Systems from the <a href="https://www.fer.unizg.hr/en" target="_blank" rel="noopener">Faculty of Electrical Engineering and Computing</a> at the <a href="http://www.unizg.hr/homepage/" target="_blank" rel="noopener">University of Zagreb</a>. Currently, my PhD research at the <a href="https://www.tugraz.at/institute/isds/home" target="_blank" rel="noopener">Institute of Interactive Systems and Data Science</a> focuses on <em>&ldquo;Sparsity and Interpretability Issues in Social-based Recommender Systems.&rdquo;</em> My primary research interests encompass recommender systems, social and complex networks, graph neural networks, user modeling and personalization, information retrieval, machine learning, natural language processing, and computational social science.</p>
+<p style="text-align: justify;">Outside of work and academics, I enjoy spending time on the <a href="https://www.crohoops.com/team/gold-diggers/" target="_blank" rel="noopener">basketball court</a>, running on the track, or attending music events.</p>
+
+    </div>
+    
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <div class="section-subheading">Interests</div>
+        <ul class="ul-interests fa-ul mb-0">
+          
+          <li>
+            <i class="fa-li fa-solid fa-book"></i>
+            Recommender Systems
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book"></i>
+            Network Science
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book"></i>
+            Graph Neural Networks
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book"></i>
+            User Modeling
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book"></i>
+            Information Retrieval
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book"></i>
+            Machine Learning
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book"></i>
+            Natural Language Processing
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book"></i>
+            Trustworthy AI
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-book"></i>
+            Computational Social Science
+          </li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <div class="section-subheading">Education</div>
+        <ul class="ul-edu fa-ul mb-0">
+          
+          <li>
+            <i class="fa-li fa-solid fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD Candidate in Computer Science, 2018-2025 (expected)</p>
+              <p class="institution">Institute of Interactive Systems and Data Science at the Graz University of Technology</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MSc in Computing | Profile - Software Engineering and Information Systems, 2013-2015</p>
+              <p class="institution">Faculty of Electrical Engineering and Computing at the University of Zagreb</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Erasmus&#43; Exchange Program, 2012-2013</p>
+              <p class="institution">Department of Informatics at the Karlsruhe Institute of Technology</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa-solid fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BSc in Computing | Profile - Software Engineering and Information Systems, 2009-2013</p>
+              <p class="institution">Faculty of Electrical Engineering and Computing at the University of Zagreb</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-features" class="home-section wg-features  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Skills</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
+    
+    <div class="section-subheading">Research &amp; Problem-solving</div>
+    <p>Literature synthesis, experimental design, data interpretation, critical thinking, effective communication of results, LaTeX, hypothesis testing, statistical analysis, research collaboration, grant proposal writing, knowledge of relevant research methodologies, and presentation skills for both technical and non-technical audiences.</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-robot"></i></div>
+    
+    <div class="section-subheading">ML &amp; Data Science</div>
+    <p>Supervised/unsupervised learning, recommender systems (scikit-surprise, Elliot), deep and graph learning frameworks (PyTorch, PyG), data preprocessing and manipulation (pandas, NumPy, NetworkX), feature engineering, model evaluation and selection (scikit-learn, cross-validation), data visualization (Matplotlib, Seaborn), natural language processing (NLTK, spaCy, Transformers), time series analysis, anomaly detection, and dimensionality reduction techniques (PCA, t-SNE).</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-code"></i></div>
+    
+    <div class="section-subheading">Software Engineering</div>
+    <p>Proficiency in object-oriented programming using Python and Java, software design patterns, database management with SQL and NoSQL (MySQL, PostgreSQL, Apache Solr, MongoDB), web development with Spring Boot, RESTful API design, deployment and management of applications on Linux servers, containerization and virtualization (Docker, Kubernetes), cloud services (AWS, GCP), and version control (Git).</p>
+  </div>
+  
+</div>
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="experience" class="home-section wg-experience  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Experience</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+
+  
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border exp-fill">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex align-content-start">
+            <div class="mr-2 mb-2"><a href="https://www.tugraz.at/home" target="_blank" rel="noopener"><img src="/hilarious-malabi-6f4d0b.netlify.app/media/icons/brands/org-tug.svg" width="56px" height="56px" alt="Graz University of Technology" loading="lazy"></a></div>
+            <div>
+          
+
+              <div class="section-subheading card-title exp-title text-muted my-0">University Assistant</div>
+              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.tugraz.at/home" target="_blank" rel="noopener">Graz University of Technology</a></div>
+              <div class="text-muted exp-meta">
+                October 2018 –
+                
+                  Present
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Graz, Austria</span>
+                
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="card-text"><p>Responsibilities include:</p>
+<ul>
+<li>Conducting research in my area of study</li>
+<li>Collaborating with other researchers or research teams</li>
+<li>Assisting with grant proposals and funding applications</li>
+<li>Presenting research findings at conferences or events</li>
+<li>Teaching and mentoring undergraduate or graduate students</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border exp-fill">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex align-content-start">
+            <div class="mr-2 mb-2"><a href="https://www.know-center.at/" target="_blank" rel="noopener"><img src="/hilarious-malabi-6f4d0b.netlify.app/media/icons/brands/org-kc.svg" width="56px" height="56px" alt="Know-Center" loading="lazy"></a></div>
+            <div>
+          
+
+              <div class="section-subheading card-title exp-title text-muted my-0">Researcher / Project Lead / Software Engineer / ML Engineer / Data Scientist</div>
+              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.know-center.at/" target="_blank" rel="noopener">Know-Center</a></div>
+              <div class="text-muted exp-meta">
+                March 2016 –
+                
+                  Present
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Graz, Austria</span>
+                
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="card-text"><p>Responsibilities include:</p>
+<ul>
+<li>Conducting research in various fields related to data science and machine learning</li>
+<li>Leading and managing projects related to software engineering, machine learning, and data science, including project planning, implementation, and delivery</li>
+<li>Developing software solutions and implementing machine learning models to solve complex business problems</li>
+<li>Analyzing and interpreting data to gain insights and improve decision-making processes</li>
+<li>Collaborating with internal and external stakeholders to deliver successful project outcomes, including grant proposal writing, presentations, and event organization</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex align-content-start">
+            <div class="mr-2 mb-2"><a href="https://www.know-center.at/" target="_blank" rel="noopener"><img src="/hilarious-malabi-6f4d0b.netlify.app/media/icons/brands/org-kc.svg" width="56px" height="56px" alt="Know-Center" loading="lazy"></a></div>
+            <div>
+          
+
+              <div class="section-subheading card-title exp-title text-muted my-0">ERASMUS+ internship</div>
+              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.know-center.at/" target="_blank" rel="noopener">Know-Center</a></div>
+              <div class="text-muted exp-meta">
+                March 2015 –
+                
+                  August 2015
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Graz, Austria</span>
+                
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="card-text">I researched real-time and trust-based recommender systems and wrote a master&rsquo;s thesis on &ldquo;Real-Time Recommendations Based on Social Trust&rdquo; under the guidance of Prof. Dr. Sc. Vedran Podobnik, Assoc.-Prof. Dr. Elisabeth Lex, and Dr. Emanuel Lacić. My thesis results were integrated into the internal ScaR framework (Scalable Recommendation-as-a-service).</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex align-content-start">
+            <div class="mr-2 mb-2"><a href="https://www.fzi.de/en/" target="_blank" rel="noopener"><img src="/hilarious-malabi-6f4d0b.netlify.app/media/icons/brands/org-fzi.svg" width="56px" height="56px" alt="FZI Research Center for Information Technology" loading="lazy"></a></div>
+            <div>
+          
+
+              <div class="section-subheading card-title exp-title text-muted my-0">Junior Android Developer</div>
+              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.fzi.de/en/" target="_blank" rel="noopener">FZI Research Center for Information Technology</a></div>
+              <div class="text-muted exp-meta">
+                January 2013 –
+                
+                  October 2013
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Karlsruhe, Germany</span>
+                
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="card-text">During the Erasmus+ student exchange program, I worked with the Informatics Institute of the Faculty of Economics and Business Engineering and FZI Research Center to develop a mobile app for capturing real-time student feedback. My Bachelor&rsquo;s thesis, titled &ldquo;Mobile Live Interest Meter Application,&rdquo; was supervised by Prof. Dr. Rudi Studer and Dr. Verónica Rivera Pelayo.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex align-content-start">
+            <div class="mr-2 mb-2"><a href="https://www.ericsson.hr/" target="_blank" rel="noopener"><img src="/hilarious-malabi-6f4d0b.netlify.app/media/icons/brands/org-eri.svg" width="56px" height="56px" alt="Ericsson Nikola Tesla d.d." loading="lazy"></a></div>
+            <div>
+          
+
+              <div class="section-subheading card-title exp-title text-muted my-0">Student developer in Ericsson Nikola Tesla Summer Camp</div>
+              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.ericsson.hr/" target="_blank" rel="noopener">Ericsson Nikola Tesla d.d.</a></div>
+              <div class="text-muted exp-meta">
+                July 2014 –
+                
+                  September 2014
+                
+                
+                  <span class="middot-divider"></span>
+                  <span>Zagreb, Croatia / Budapest, Hungary</span>
+                
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="card-text">During a 5-week summer internship at Ericsson Nikola Tesla Summer Camp, I integrated a code plagiarism toolkit into the company&rsquo;s internal IDE using Javascript, HTML, CSS, and the Dojo toolkit. The program included 3 weeks in Zagreb and 2 weeks in Budapest, providing valuable experience in software development and insight into the telecommunications industry.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="publications" class="home-section wg-collection  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Recent Publications</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="./publication/">filtering publications</a>.
+  </div>
+</div>
+
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>
+  </span>
+  (2019).
+  <a href="hilarious-malabi-6f4d0b.netlify.app/publication/preprint/">An example preprint / working paper</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
+    Custom Link</a>
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+  </span>
+  (2015).
+  <a href="hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/">An example journal article</a>.
+  <em>Journal of Source Themes, 1</em>(1).
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+  
+
+  
+  
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="projects" class="home-section wg-portfolio  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">Projects</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 ">
+
+  
+
+  
+
+    
+
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    <span class="d-none default-project-filter">*</span>
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar d-flex justify-content-center">
+          <div class="btn-group flex-wrap">
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-deep-learning" class="btn btn-primary btn-lg">Deep Learning</a>
+            
+              
+              
+              
+                
+                  
+                
+              
+              <a href="#" data-filter=".js-id-demo" class="btn btn-primary btn-lg">Other</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  <div class="isotope projects-container row js-layout-row project-showcase">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+    
+    
+      
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+      
+        
+          <div class="col-12 isotope-item js-id-deep-learning">
+        
+        
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="col-lg-12 mb-5 view-showcase">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <div class="section-subheading article-title mb-0 mt-0"><a href="hilarious-malabi-6f4d0b.netlify.app/project/example/" >Example Project</a></div>
+
+      
+      <div class="article-style">
+        An example of using the in-built project page.
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="hilarious-malabi-6f4d0b.netlify.app/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>Follow</a>
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+
+      
+        
+        <a href="hilarious-malabi-6f4d0b.netlify.app/project/example/" >
+          <img src="/hilarious-malabi-6f4d0b.netlify.app/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_540x0_resize_q75_h2_lanczos.webp" height="304" width="540"
+              alt="Example Project" loading="lazy">
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      
+        
+          <div class="col-12 isotope-item js-id-demo">
+        
+        
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="col-lg-12 mb-5 view-showcase">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6">
+      <div class="section-subheading article-title mb-0 mt-0"><a href="https://example.org" >External Project</a></div>
+
+      
+      <div class="article-style">
+        An example of linking directly to an external project website using <code>external_link</code>.
+      </div>
+      
+
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6 order-first ">
+      
+
+      
+        
+        <a href="https://example.org" >
+          <img src="/hilarious-malabi-6f4d0b.netlify.app/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_540x0_resize_q75_h2_lanczos.webp" height="304" width="540"
+              alt="External Project" loading="lazy">
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+
+  </div>
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="teaching" class="home-section wg-accomplishments  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Teaching</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Data Science in Business 2</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.tugraz.at/studium/studienangebot/masterstudien/computational-social-systems" target="_blank" rel="noopener">Graz University of Technology and University of Graz</a><span class="middot-divider"></span>
+
+              Oct 2022
+              
+              – Feb 2023
+              
+            </div>
+
+        
+          <div class="card-text">As one of three lecturers, I was responsible for instructing and grading practical sessions for the Data Science in Business 2 course, which is part of the Computational Social Systems Master&rsquo;s program offered jointly by Graz University of Technology and the University of Graz. During the course, I taught students about natural language processing, covering text cleaning, feature engineering, and popular Python libraries like Transformers. The final project involved working with financial textual data and helped students develop critical thinking and problem-solving skills.</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Complexity Science</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.tugraz.at/en/studying-and-teaching/degree-and-certificate-programmes/masters-degree-programmes/information-and-computer-engineering/" target="_blank" rel="noopener">Graz University of Technology</a><span class="middot-divider"></span>
+
+              Oct 2018
+              
+              – Feb 2019
+              
+            </div>
+
+        
+          <div class="card-text">I served as a lecturer in the complexity science course, where I assisted my mentor in covering the topics presented in Chapter 7 of &ldquo;Complexity - A Guided Tour&rdquo; by Melanie Mitchell. My responsibilities included creating and grading student assignments related to the principles of complexity, fitness landscapes, and evolution of cooperation.</div>
+        
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="services" class="home-section wg-accomplishments  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Services</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Session chairing and workshop organization</div><div class="card-subtitle my-0 article-metadata"><span class="middot-divider"></span>
+
+              Oct 2022
+              
+              – Feb 2023
+              
+            </div>
+
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Program Committee Membership and Reviewing</div><div class="card-subtitle my-0 article-metadata"><span class="middot-divider"></span>
+
+              Feb 2019
+              
+              – Oct 2018
+              
+            </div>
+
+        
+          <div class="card-text"><p>Responsibilities include:</p>
+<ul>
+<li>Conducting research in various fields related to data science and machine learning</li>
+<li>Leading and managing projects related to software engineering, machine learning, and data science, including project planning, implementation, and delivery</li>
+<li>Developing software solutions and implementing machine learning models to solve complex business problems</li>
+<li>Analyzing and interpreting data to gain insights and improve decision-making processes</li>
+<li>Collaborating with internal and external stakeholders to deliver successful project outcomes, including grant proposal writing, presentations, and event organization</li>
+</ul>
+</div>
+        
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="awards" class="home-section wg-accomplishments  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Awards &amp; Grants</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Best Presentation Award</div><div class="card-subtitle my-0 article-metadata"><a href="https://www.tugraz.at/institute/isds/home" target="_blank" rel="noopener">Know-Center and Institute of Interactive Systems and Data Science</a><span class="middot-divider"></span>
+
+              Sep 2022
+              
+            </div>
+
+        
+          <div class="card-text">I received the Best Presentation Award at the institute&rsquo;s PhD retreat for the presentation of my PhD topic.</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Travel Grant</div><div class="card-subtitle my-0 article-metadata"><a href="http://symposium.computationalsocialscience.eu/2019/" target="_blank" rel="noopener">Euro CSS</a><span class="middot-divider"></span>
+
+              Sep 2019
+              
+            </div>
+
+        
+          <div class="card-text">I received a travel grant to attend the European Symposium on Societal Challenges in Computational Social Science in Zurich, which focused on &ldquo;Polarization and Radicalization.&rdquo;</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Travel Grant</div><div class="card-subtitle my-0 article-metadata"><a href="http://summerschool.computationalsocialscience.eu/2019/" target="_blank" rel="noopener">Euro CSS</a><span class="middot-divider"></span>
+
+              Sep 2019
+              
+            </div>
+
+        
+          <div class="card-text">I received a travel grant to attend the third summer school on analyzing multimedia data in Berlin. The program covered computer vision, spatial and temporal analysis of urban spaces, and multimedia content models.</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Erasmus+ Traineeship Scholarship</div><div class="card-subtitle my-0 article-metadata"><a href="https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/traineeships-abroad-for-students" target="_blank" rel="noopener">Erasmus+</a><span class="middot-divider"></span>
+
+              Feb 2015
+              
+              – Aug 2015
+              
+            </div>
+
+        
+          <div class="card-text">With an Erasmus+ traineeship scholarship, I completed a 6-month internship at the Know-Center, finishing my master&rsquo;s thesis and gaining valuable skills.</div>
+        
+
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Erasmus+ Student Exchange Scholarship</div><div class="card-subtitle my-0 article-metadata"><a href="https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/studying-abroad" target="_blank" rel="noopener">Erasmus+</a><span class="middot-divider"></span>
+
+              Sep 2011
+              
+              – Aug 2012
+              
+            </div>
+
+        
+          <div class="card-text">I received an Erasmus+ scholarship to study for two semesters at the Karlsruhe Institute of Technology.</div>
+        
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="theses" class="home-section wg-accomplishments  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Co-Supervised Theses</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+    <div class="card experience course">
+      <div class="card-body"><div class="section-subheading card-title exp-title text-muted my-0">Volker Seiser, &ldquo;Analysis of cross-platform user behavior on the example of Reddit and YouTube comments.&rdquo;</div><div class="card-subtitle my-0 article-metadata"><span class="middot-divider"></span>
+
+              Sep 2020
+              
+              – Mar 2021
+              
+            </div>
+
+        
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="talks" class="home-section wg-collection  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Recent &amp; Upcoming Talks</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="hilarious-malabi-6f4d0b.netlify.app/talk/presentation-at-the-ebdvf-2021/" >Presentation at the EBDVF 2021</a>
+    </div>
+
+    
+    <a href="hilarious-malabi-6f4d0b.netlify.app/talk/presentation-at-the-ebdvf-2021/"  class="summary-link">
+      <div class="article-style">
+        I gave a presentation on the topic of &ldquo;Big Data and AI for the Financial Sector - challenges and opportunities&rdquo; at the EBDVF 2021
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Dec 1, 2021 12:30 PM &mdash; 2:00 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>Online</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtu.be/XjZGip2TQec?t=895" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://european-big-data-value-forum.eu/2021-edition/programme/?edition_session_id=6267" target="_blank" rel="noopener">
+    EBDVF 2021</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="hilarious-malabi-6f4d0b.netlify.app/talk/panel-discussion-at-zagreb-connect-2021/" >Panel Discussion at Zagreb Connect 2021</a>
+    </div>
+
+    
+    <a href="hilarious-malabi-6f4d0b.netlify.app/talk/panel-discussion-at-zagreb-connect-2021/"  class="summary-link">
+      <div class="article-style">
+        I participated in a panel discussion at Zagreb Connect, where we discussed building successful and sustainable startup ecosystems.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Nov 23, 2021 10:00 AM &mdash; 2:15 PM
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>ZICER</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtu.be/hA8R0lv9qMQ?t=13975" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.zicer.hr/zagreb-connect/" target="_blank" rel="noopener">
+    Zagreb Connect</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+
+  
+  
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-tag_cloud" class="home-section wg-tag-cloud  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Popular Topics</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+
+    
+    
+    
+    
+    
+    
+
+    <div class="tag-cloud">
+      
+        
+        
+        
+        <a href="hilarious-malabi-6f4d0b.netlify.app/tag/academic/" style="font-size:0.8rem">Academic</a>
+      
+        
+        
+        
+        <a href="hilarious-malabi-6f4d0b.netlify.app/tag/deep-learning/" style="font-size:0.8rem">Deep Learning</a>
+      
+        
+        
+        
+        <a href="hilarious-malabi-6f4d0b.netlify.app/tag/demo/" style="font-size:0.8rem">Demo</a>
+      
+        
+        
+        
+        <a href="hilarious-malabi-6f4d0b.netlify.app/tag/source-themes/" style="font-size:1.8725805810714777rem">Source Themes</a>
+      
+        
+        
+        
+        <a href="hilarious-malabi-6f4d0b.netlify.app/tag/%E5%BC%80%E6%BA%90/" style="font-size:0.8rem">开源</a>
+      
+    </div>
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="contact" class="home-section wg-contact  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Contact</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  <p>Have a question or want to work together? I&rsquo;d love to hear from you! Please use the form below to send me a message, and I will get back to you as soon as possible.</p>
+
+  
+
+    
+    
+      
+    
+
+    <div class="mb-3">
+      <form name="contact" method="POST" netlify netlify-honeypot="_gotcha"  >
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputName">Name</label>
+          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
+        </div>
+        <div class="form-group form-inline">
+          <label class="sr-only" for="inputEmail">Email</label>
+          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="inputMessage">Message</label>
+          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+        </div>
+        
+        <div class="d-none">
+          <label>Do not fill this field unless you are a bot: <input name="_gotcha"></label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary px-3 py-2 w-100">Send</button>
+      </form>
+    </div>
+  
+
+  <ul class="fa-ul">
+
+    
+    <li>
+      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+      <span id="person-email"><a href="mailto:tduricic90@gmail.com">tduricic90@gmail.com</a></span>
+    </li>
+    
+
+    
+    <li>
+      <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+      <span id="person-telephone"><a href="tel:&#43;43%20316%20873-30844">&#43;43 316 873-30844</a></span>
+    </li>
+    
+
+    
+    
+      
+      <li>
+        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address">Sandgasse 36, Graz, 8010</span>
+      </li>
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <i class="fa-li fab fa-linkedin fa-2x" aria-hidden="true"></i>
+      <a href="https://twitter.com/Twitter" target="_blank" rel="noopener">DM Me</a>
+    </li>
+    
+
+  </ul>
+
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/hilarious-malabi-6f4d0b.netlify.app/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
+
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
     <div class="search-hit" id="summary-{{key}}">
       <div class="search-hit-content">
         <div class="search-hit-name">
@@ -96,8 +3761,108 @@ Sep 2020
         </div>
       </div>
     </div>
-  </script><script src=https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin=anonymous></script>
-<script src=https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin=anonymous></script>
-<script id=page-data type=application/json>{"use_headroom":false}</script><script src=/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js></script><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Cite</h5><button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><pre><code></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i> Copy</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i> Download</a><div id=modal-error></div></div></div></div></div><script src=/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js type=module></script></body></html>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/hilarious-malabi-6f4d0b.netlify.app/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
