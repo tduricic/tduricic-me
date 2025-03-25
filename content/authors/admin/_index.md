@@ -18,7 +18,7 @@ role: Researcher / Machine Learning Engineer / Software Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Know-Center
+  - name: Know Center Research
     url: https://www.know-center.at/
   - name: Institute of Interactive Systems and Data Science
     url: https://www.tugraz.at/institute/isds/home
@@ -30,15 +30,17 @@ bio: My research interests include social-based recommender systems, graph neura
 
 # Interests to show in About widget
 interests:
-  - Recommender Systems
-  - Network Science
-  - Graph Neural Networks
-  - User Modeling
-  - Information Retrieval
-  - Machine Learning
-  - Natural Language Processing
-  - Trustworthy AI
-  - Computational Social Science
+ - Recommender Systems
+ - Trust-based Systems
+ - Network Science & Complex Networks
+ - Graph Neural Networks
+ - User Modeling & Behavior Analysis
+ - Information Retrieval
+ - Machine Learning
+ - Natural Language Processing
+ - Large Language Models
+ - Diversity & Fairness in AI
+ - Computational Social Science
 
 # Education to show in About widget
 education:
@@ -46,13 +48,13 @@ education:
     - course: PhD Candidate in Computer Science
       institution: Institute of Interactive Systems and Data Science at the Graz University of Technology
       year: 2018-2025 (expected)
-    - course: MSc in Computing | Profile - Software Engineering and Information Systems
+    - course: MSc in Software Engineering and Information Systems
       institution: Faculty of Electrical Engineering and Computing at the University of Zagreb
       year: 2013-2015
     - course: Erasmus+ Exchange Program
       institution: Department of Informatics at the Karlsruhe Institute of Technology
       year: 2012-2013
-    - course: BSc in Computing | Profile - Software Engineering and Information Systems
+    - course: BSc in Software Engineering and Information Systems
       institution: Faculty of Electrical Engineering and Computing at the University of Zagreb
       year: 2009-2013
 
@@ -93,9 +95,11 @@ email: 'tduricic90@gmail.com'
 highlight_name: true
 ---
 
-My name is Tomislav Đuričić, and I am a PhD candidate and university assistant at [Graz University of Technology](https://www.tugraz.at/home). In addition to my academic role, I work as a software/ML engineer and scientific researcher at the [Fair AI Lab](https://www.know-center.at/research/forschung-am-know-center/fair-ai/) in the [Know-Center](https://www.know-center.at/). There, I have played a significant role in various industry and EU-funded projects, and even lead internal and external projects.
+I'm Tomislav Đuričić, a Senior Machine Learning Researcher at [Know Center Research](https://www.know-center.at/) in Graz, Austria. I'm pursuing my PhD at [Graz University of Technology](https://www.tugraz.at/home), focusing on "Beyond-Accuracy Optimization in Social-based Recommender Systems." I work primarily in the [Fair AI Lab](https://www.know-center.at/research/forschung-am-know-center/fair-ai/), developing advanced AI solutions for industry and research applications.
 
-I earned my MSc and BSc degrees in Software Engineering and Information Systems from the [Faculty of Electrical Engineering and Computing](https://www.fer.unizg.hr/en) at the [University of Zagreb](http://www.unizg.hr/homepage/). Currently, my PhD research at the [Institute of Interactive Systems and Data Science](https://www.tugraz.at/institute/isds/home) focuses on *"Sparsity and Interpretability Issues in Social-based Recommender Systems."* My primary research interests encompass recommender systems, social and complex networks, graph neural networks, user modeling and personalization, information retrieval, machine learning, natural language processing, and computational social science.
+My work bridges academic research with industry applications. I've developed recommendation systems for student job platforms, time-series forecasting solutions for automotive inventory planning, and outlier detection systems for retail optimization. In my research, I explore graph neural networks, trust-based recommender systems, and evaluation metrics beyond simple accuracy, publishing findings in venues like RecSys, ECAI, and ASONAM. Throughout my career, I've led both research-focused and industry-oriented projects, including initiatives funded by the European Union.
 
-Outside of work and academics, I enjoy spending time on the [basketball court](https://www.crohoops.com/team/gold-diggers/), running on the track, or attending music events.
-{style="text-align: justify;"}
+My research interests include recommender systems, graph neural networks, trust networks, and user modeling. I'm currently focused on integrating large language models into immersive AR/VR environments for industrial applications, creating digital twins that enhance machine operation and training.
+
+I earned my MSc and BSc in Software Engineering and Information Systems from the [University of Zagreb](http://www.unizg.hr/homepage/)'s [Faculty of Electrical Engineering and Computing](https://www.fer.unizg.hr/en). Outside of work, I enjoy playing basketball with the [Gold Diggers](https://www.crohoops.com/team/gold-diggers/), jogging, and attending music events.
+{style="text-align: justify;"}"
