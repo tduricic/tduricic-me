@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outlier Detection | </title>
+    <link>https://tduricic.me/tag/outlier-detection/</link>
+      <atom:link href="https://tduricic.me/tag/outlier-detection/index.xml" rel="self" type="application/rss+xml" />
+    <description>Outlier Detection</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Outlier Detection</title>
+      <link>https://tduricic.me/tag/outlier-detection/</link>
+    </image>
+    
+    <item>
+      <title>Detego Fashion Outlier Detection</title>
+      <link>https://tduricic.me/project/detego/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/detego/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_june-2016--december-2016_&#34;&gt;Project Overview &lt;em&gt;(June 2016 – December 2016)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;At Know Center Research, we collaborated with with Detego Fashion who leverage patented RFID technology to track garments from manufacturing through retail, enhancing inventory accuracy and customer experience. Fashion brands including Levi’s, Adidas, and Reiss use this technology for in-store tracking, real-time stock visibility, and online order fulfillment. Our task was to implement a real-time outlier detection system to optimize garment placement within retail stores, boosting sales for low-performing items.&lt;/p&gt;
+&lt;h2 id=&#34;technical-challenges&#34;&gt;Technical Challenges&lt;/h2&gt;
+&lt;p&gt;Key challenges included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing a reliable, real-time data processing pipeline&lt;/li&gt;
+&lt;li&gt;Ensuring robust and accurate data cleaning and preprocessing&lt;/li&gt;
+&lt;li&gt;Integrating an effective outlier detection algorithm capable of handling retail data complexity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technologies--methods&#34;&gt;Technologies &amp;amp; Methods&lt;/h2&gt;
+&lt;p&gt;The solution integrated multiple technologies and methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Architecture:&lt;/strong&gt; Microservices with Java, Spring Boot, Swagger, RabbitMQ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Storage:&lt;/strong&gt; Apache Solr for data indexing and retrieval&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Machine Learning &amp;amp; Analysis:&lt;/strong&gt; Python (numpy, pandas, sklearn, scipy) for outlier detection using Mahalanobis distance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Processing:&lt;/strong&gt; Java-based real-time data pipeline, integration with Python scripts for data analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD &amp;amp; Testing:&lt;/strong&gt; Extensive testing (JUnit, integration tests), Agile development methodology&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deployment:&lt;/strong&gt; Production-ready solution deployed in a retail environment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results--impact&#34;&gt;Results &amp;amp; Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Delivered a fully operational real-time outlier detection pipeline&lt;/li&gt;
+&lt;li&gt;Enabled automated and intelligent decision-making for garment placement&lt;/li&gt;
+&lt;li&gt;Enhanced sales performance by optimizing store layouts and merchandising&lt;/li&gt;
+&lt;li&gt;Featured as a success story in Austria’s Trend magazine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Detego Project Featured in Trend Magazine&#34; srcset=&#34;
+               /project/detego/socialcomputing-detego-porsche_hua8caa18783efa5368a603ed4f2438712_1762507_ef92b3d106b93cfbb9f016e7334eea78.webp 400w,
+               /project/detego/socialcomputing-detego-porsche_hua8caa18783efa5368a603ed4f2438712_1762507_7a3dfaa1dc87403a1ed5deb07566c397.webp 760w,
+               /project/detego/socialcomputing-detego-porsche_hua8caa18783efa5368a603ed4f2438712_1762507_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tduricic.me/project/detego/socialcomputing-detego-porsche_hua8caa18783efa5368a603ed4f2438712_1762507_ef92b3d106b93cfbb9f016e7334eea78.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;508&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;personal-contribution&#34;&gt;Personal Contribution&lt;/h2&gt;
+&lt;p&gt;As a Software Engineer and ML Engineer on this project, my responsibilities included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing and developing the end-to-end data processing pipeline in Java&lt;/li&gt;
+&lt;li&gt;Integrating and orchestrating the real-time execution of the outlier detection algorithm developed by a colleague in Python&lt;/li&gt;
+&lt;li&gt;Ensuring seamless communication between microservices and the Python components&lt;/li&gt;
+&lt;li&gt;Conducting extensive testing and validation to ensure reliable, accurate predictions&lt;/li&gt;
+&lt;li&gt;Deploying and maintaining the solution in production environments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The project was recognized as a notable industry success and was featured in the Austrian Trend magazine.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

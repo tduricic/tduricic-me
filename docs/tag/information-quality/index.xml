@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information Quality | </title>
+    <link>https://tduricic.me/tag/information-quality/</link>
+      <atom:link href="https://tduricic.me/tag/information-quality/index.xml" rel="self" type="application/rss+xml" />
+    <description>Information Quality</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Information Quality</title>
+      <link>https://tduricic.me/tag/information-quality/</link>
+    </image>
+    
+    <item>
+      <title>Design Implications for Explanations: A Case Study on Supporting Reflective Assessment of Potentially Misleading Videos</title>
+      <link>https://tduricic.me/publication/2021_frontiers/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_frontiers/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

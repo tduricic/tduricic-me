@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: September 15, 2024 --><html lang="en-us" >
+<!-- Last Published: March 25, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -70,7 +70,7 @@
 
   
 
-  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
 
   
   
@@ -212,7 +212,7 @@
   
   
   
-  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
 
   
   
@@ -227,8 +227,8 @@
   
     
     
-    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
   
 
   
@@ -236,6 +236,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0G6M6XGFC9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-0G6M6XGFC9', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -280,17 +319,17 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="hilarious-malabi-6f4d0b.netlify.app/project/" />
-<link rel="canonical" href="hilarious-malabi-6f4d0b.netlify.app/project/" />
+<link rel="alternate" hreflang="en-us" href="https://tduricic.me/project/" />
+<link rel="canonical" href="https://tduricic.me/project/" />
 
 
 
-  <link rel="manifest" href="hilarious-malabi-6f4d0b.netlify.app/manifest.webmanifest" />
+  <link rel="manifest" href="/manifest.webmanifest" />
 
 
 
-<link rel="icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -315,14 +354,14 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:image" content="https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="" />
-<meta property="og:url" content="hilarious-malabi-6f4d0b.netlify.app/project/" />
+<meta property="og:url" content="https://tduricic.me/project/" />
 <meta property="og:title" content="Projects | " />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2016-04-27T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2023-10-01T00:00:00&#43;00:00" />
   
 
 
@@ -333,14 +372,14 @@
 
 
 
-
-  
-  
-  
 
   
   
-    <link rel="alternate" href="hilarious-malabi-6f4d0b.netlify.app/project/index.xml" type="application/rss+xml" title="" />
+  
+
+  
+  
+    <link rel="alternate" href="/project/index.xml" type="application/rss+xml" title="" />
   
 
   
@@ -378,7 +417,7 @@
   
   
   
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
 
   
 
@@ -446,7 +485,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+        <a class="navbar-brand" href="/"></a>
       </div>
       
 
@@ -459,7 +498,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+        <a class="navbar-brand" href="/"></a>
       </div>
       
 
@@ -502,7 +541,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#about"><span>Home</span></a>
+            <a class="nav-link " href="/#about"><span>Home</span></a>
           </li>
 
           
@@ -539,7 +578,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#projects"><span>Projects</span></a>
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
           </li>
 
           
@@ -576,7 +615,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#publications"><span>Publications</span></a>
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
           </li>
 
           
@@ -613,7 +652,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#talks"><span>Talks</span></a>
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
           </li>
 
           
@@ -650,7 +689,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#contact"><span>Contact</span></a>
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
           
@@ -784,13 +823,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="hilarious-malabi-6f4d0b.netlify.app/project/example/" >Example Project</a>
+      <a href="/project/ddia/" >DDIA - Data Driven Immersive Analytics</a>
     </div>
 
     
-    <a href="hilarious-malabi-6f4d0b.netlify.app/project/example/"  class="summary-link">
+    <a href="/project/ddia/"  class="summary-link">
       <div class="article-style">
-        An example of using the in-built project page.
+        Research project enhancing digital twin interactions and immersive analytics using personalized AI, AR/VR interfaces, and physiological sensing for improved remote collaboration, support, and training in industry.
       </div>
     </a>
     
@@ -803,65 +842,15 @@
     </div>
 
     
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
-
-
-    </div>
-    
 
   </div>
   <div class="ml-3">
     
     
       
-      <a href="hilarious-malabi-6f4d0b.netlify.app/project/example/" >
-        <img src="/hilarious-malabi-6f4d0b.netlify.app/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q75_h2_lanczos.webp" height="84" width="150"
-            alt="Example Project" loading="lazy">
+      <a href="/project/ddia/" >
+        <img src="/project/ddia/featured_hu5f7995f601bb2e96182c0bf32ab657a2_1704348_150x0_resize_q75_h2_lanczos_3.webp" height="115" width="150"
+            alt="DDIA - Data Driven Immersive Analytics" loading="lazy">
       </a>
     
   </div>
@@ -874,9 +863,6 @@
 
 
 
-
-  
-  
 
 
   
@@ -894,13 +880,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="https://example.org" target="_blank" rel="noopener">External Project</a>
+      <a href="/project/avl/" >AVL Research Project: Intelligent Fault Tree Construction for Automotive Diagnostics</a>
     </div>
 
     
-    <a href="https://example.org" target="_blank" rel="noopener" class="summary-link">
+    <a href="/project/avl/"  class="summary-link">
       <div class="article-style">
-        An example of linking directly to an external project website using <code>external_link</code>.
+        Research collaboration between Graz University of Technology and AVL List GmbH focused on applying sequential recommendation methods and text embeddings to automate and enhance automotive diagnostic fault tree construction.
       </div>
     </a>
     
@@ -919,9 +905,465 @@
     
     
       
-      <a href="https://example.org" target="_blank" rel="noopener">
-        <img src="/hilarious-malabi-6f4d0b.netlify.app/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_150x0_resize_q75_h2_lanczos.webp" height="84" width="150"
-            alt="External Project" loading="lazy">
+      <a href="/project/avl/" >
+        <img src="/project/avl/featured_hu9ac74a5a361ad928dd051e75f03961d1_193955_150x0_resize_q75_h2_lanczos_3.webp" height="87" width="150"
+            alt="AVL Research Project: Intelligent Fault Tree Construction for Automotive Diagnostics" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/cogsteps/" >COGSTEPS - Crossing the Gap: Startup Education and Support for Researchers</a>
+    </div>
+
+    
+    <a href="/project/cogsteps/"  class="summary-link">
+      <div class="article-style">
+        ERASMUS+ project designed to bridge academia and the startup ecosystem, developing a platform and educational programs to foster innovation and entrepreneurial skills among researchers and scientists.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/cogsteps/" >
+        <img src="/project/cogsteps/featured_hu1547579568d7cfabfe7d395d25262f47_770429_150x0_resize_q75_h2_lanczos.webp" height="100" width="150"
+            alt="COGSTEPS - Crossing the Gap: Startup Education and Support for Researchers" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/ddai/" >DDAI - Explainable, Verifiable, and Privacy-Preserving Data-Driven AI</a>
+    </div>
+
+    
+    <a href="/project/ddai/"  class="summary-link">
+      <div class="article-style">
+        Research module developing privacy-preserving, verifiable, and explainable AI solutions, combining cryptography, explainable AI, and machine learning, contributing to both academic knowledge and practical industry applications.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/ddai/" >
+        <img src="/project/ddai/featured_hu8bbbe28aa04fbe1ccbf3c0fe29483cb6_1136892_150x0_resize_q75_h2_lanczos_3.webp" height="88" width="150"
+            alt="DDAI - Explainable, Verifiable, and Privacy-Preserving Data-Driven AI" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/vhdd/" >Virtuelles Haus der Digitalisierung (VHDD)</a>
+    </div>
+
+    
+    <a href="/project/vhdd/"  class="summary-link">
+      <div class="article-style">
+        Successfully developed and deployed multiple personalized content recommendation use cases using the ScaR recommender framework for the Virtual House of Digitalization, enhancing content discovery and user engagement.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/vhdd/" >
+        <img src="/project/vhdd/featured_hu9652877f05259713fa5007e9ac6c6733_388570_150x0_resize_q75_h2_lanczos_3.webp" height="167" width="150"
+            alt="Virtuelles Haus der Digitalisierung (VHDD)" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/studo/" >Studo/Talto Job Matchmaking Platform</a>
+    </div>
+
+    
+    <a href="/project/studo/"  class="summary-link">
+      <div class="article-style">
+        Developed and deployed a personalized job matchmaking recommender system for Studo, later spun off into the standalone platform Talto, significantly enhancing student engagement and job application rates.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/studo/" >
+        <img src="/project/studo/featured_hua995a0b5286da3438b0d07562ff48b99_2304271_150x0_resize_q75_h2_lanczos_3.webp" height="104" width="150"
+            alt="Studo/Talto Job Matchmaking Platform" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/porsche/" >Porsche Holding Demand Prediction Dashboard</a>
+    </div>
+
+    
+    <a href="/project/porsche/"  class="summary-link">
+      <div class="article-style">
+        Developed a data-driven time-series prediction dashboard for Porsche Holding Salzburg, optimizing monthly car order volumes using Python, R, Plotly, ARIMA, SARIMA, and LSTM (Keras).
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/porsche/" >
+        <img src="/project/porsche/featured_hueba8465aa47c2852fc93ab2fcd67e98e_376911_150x0_resize_q75_h2_lanczos_3.webp" height="161" width="150"
+            alt="Porsche Holding Demand Prediction Dashboard" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/detego/" >Detego Fashion Outlier Detection</a>
+    </div>
+
+    
+    <a href="/project/detego/"  class="summary-link">
+      <div class="article-style">
+        Developed a real-time data pipeline and integrated an outlier detection system to optimize garment placement in retail stores, improving sales performance. Built with Java, Spring Boot, RabbitMQ, Apache Solr, Python, and sklearn.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/detego/" >
+        <img src="/project/detego/featured_hu9aab766f442ebbee3941b2b791267cdc_708448_150x0_resize_q75_h2_lanczos_3.webp" height="109" width="150"
+            alt="Detego Fashion Outlier Detection" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/ifolor/" >Photo Calendar Recommendation System</a>
+    </div>
+
+    
+    <a href="/project/ifolor/"  class="summary-link">
+      <div class="article-style">
+        Developed an end-to-end machine learning pipeline that analyzes image metadata to intelligently assign photos to calendar months. Built with Java 8, Spring Boot, RabbitMQ, Apache Solr, Maven, and Jenkins CI/CD. Implemented data processing with PySpark, HDFS, and Hadoop. Created machine learning models using Weka with JUnit and integration testing for quality assurance.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/ifolor/" >
+        <img src="/project/ifolor/featured_hu6018d72fa4ad7883cb582a30481778ba_684732_150x0_resize_q75_h2_lanczos_3.webp" height="156" width="150"
+            alt="Photo Calendar Recommendation System" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/scar/" >ScaR: Real-Time Recommender Framework</a>
+    </div>
+
+    
+    <a href="/project/scar/"  class="summary-link">
+      <div class="article-style">
+        Core contributor to ScaR, an in-house scalable recommender framework following the microservices architecture, supporting real-time recommendations and streaming data processing using Java, Apache Solr, Spring Boot, Docker, and Jenkins.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/project/scar/" >
+        <img src="/project/scar/featured_hu705dec1f9402a295ad235d13483b62cb_87261_150x0_resize_q75_h2_lanczos_3.webp" height="104" width="150"
+            alt="ScaR: Real-Time Recommender Framework" loading="lazy">
       </a>
     
   </div>
@@ -989,7 +1431,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2025 Tomislav Đuričić. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1032,7 +1474,7 @@
   
 
 
-<script src="/hilarious-malabi-6f4d0b.netlify.app/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
+<script src="/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
 
 
 
@@ -1102,7 +1544,7 @@
 
 
 
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1116,7 +1558,7 @@
   
 
 
-<script src="/hilarious-malabi-6f4d0b.netlify.app/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
+<script src="/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
 
 
 
@@ -1152,7 +1594,7 @@
 </div>
 
 
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
 
 
 

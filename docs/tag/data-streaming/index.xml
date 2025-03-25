@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Streaming | </title>
+    <link>https://tduricic.me/tag/data-streaming/</link>
+      <atom:link href="https://tduricic.me/tag/data-streaming/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Streaming</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Data Streaming</title>
+      <link>https://tduricic.me/tag/data-streaming/</link>
+    </image>
+    
+    <item>
+      <title>ScaR: Real-Time Recommender Framework</title>
+      <link>https://tduricic.me/project/scar/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/scar/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_march-2015--december-2020-ongoing-occasionally_&#34;&gt;Project Overview &lt;em&gt;(March 2015 – December 2020, ongoing occasionally)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;At Know Center Research, I have extensively contributed to ScaR (Scalable Recommender), our in-house recommender framework designed for real-time, scalable, and context-aware recommendation scenarios. ScaR follows a microservices architecture, integrating seamlessly with streaming data to provide immediate recommendations without costly recalculations. More information about ScaR is available on the &lt;a href=&#34;https://www.know-center.at/demos/scar-recommender-service/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official project website&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;key-projects-using-scar&#34;&gt;Key Projects Using ScaR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Master&amp;rsquo;s thesis on social-based recommendation algorithms&lt;/li&gt;
+&lt;li&gt;Student job matchmaking in collaboration with Studo&lt;/li&gt;
+&lt;li&gt;Matchmaking on the VHDD platform&lt;/li&gt;
+&lt;li&gt;Personalized learning content recommendations in the Cogsteps project&lt;/li&gt;
+&lt;li&gt;Adaptive conference session recommendations with Conference Navigator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-challenges&#34;&gt;Technical Challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Immediate processing of high-frequency streaming data&lt;/li&gt;
+&lt;li&gt;Scalability in cloud-based and distributed environments&lt;/li&gt;
+&lt;li&gt;Integration of diverse recommendation algorithms&lt;/li&gt;
+&lt;li&gt;Real-time updates without performance degradation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technologies--methods&#34;&gt;Technologies &amp;amp; Methods&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core Development:&lt;/strong&gt; Java, Apache Solr, Spring Boot, Microservices Architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Management &amp;amp; Processing:&lt;/strong&gt; Real-time data ingestion and handling using Apache Solr&amp;rsquo;s near-real-time features&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Continuous Integration &amp;amp; Deployment:&lt;/strong&gt; Jenkins, Maven, Docker, Apache ZooKeeper&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recommendation Algorithms:&lt;/strong&gt; Content-Based Filtering, Collaborative Filtering, Hybrid Approaches&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing &amp;amp; Maintenance:&lt;/strong&gt; JUnit, comprehensive unit, and integration testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results--impact&#34;&gt;Results &amp;amp; Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Enabled multiple successful commercial and research projects&lt;/li&gt;
+&lt;li&gt;Improved recommendation accuracy and speed across various use cases&lt;/li&gt;
+&lt;li&gt;Featured in many academic publications, with the main reference:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bibtex&#34; data-lang=&#34;bibtex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@inproceedings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;lacic2015scar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Scar: Towards a real-time recommender framework following the microservices architecture}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Lacic, Emanuel and Traub, Matthias and Kowald, Dominik and Lex, Elisabeth}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;booktitle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Proceedings of the Workshop on Large Scale Recommender Systems (LSRS2015) at RecSys}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{16--20}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2015}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;personal-contribution&#34;&gt;Personal Contribution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Acted as a core contributor, significantly influencing the framework&amp;rsquo;s features and development&lt;/li&gt;
+&lt;li&gt;Implemented and tested various recommendation algorithms within ScaR&lt;/li&gt;
+&lt;li&gt;Integrated ScaR into multiple industry and academic projects&lt;/li&gt;
+&lt;li&gt;Assisted with maintenance, deployment, and infrastructure improvements for enhanced scalability and reliability&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

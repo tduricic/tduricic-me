@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: September 15, 2024 --><html lang="en-us" >
+<!-- Last Published: March 25, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -70,7 +70,7 @@
 
   
 
-  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
 
   
   
@@ -212,7 +212,7 @@
   
   
   
-  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
 
   
   
@@ -227,8 +227,8 @@
   
     
     
-    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
   
 
   
@@ -236,6 +236,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0G6M6XGFC9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-0G6M6XGFC9', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -280,17 +319,17 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="hilarious-malabi-6f4d0b.netlify.app/publication/" />
-<link rel="canonical" href="hilarious-malabi-6f4d0b.netlify.app/publication/" />
+<link rel="alternate" hreflang="en-us" href="https://tduricic.me/publication/" />
+<link rel="canonical" href="https://tduricic.me/publication/" />
 
 
 
-  <link rel="manifest" href="hilarious-malabi-6f4d0b.netlify.app/manifest.webmanifest" />
+  <link rel="manifest" href="/manifest.webmanifest" />
 
 
 
-<link rel="icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -315,14 +354,14 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:image" content="https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="" />
-<meta property="og:url" content="hilarious-malabi-6f4d0b.netlify.app/publication/" />
+<meta property="og:url" content="https://tduricic.me/publication/" />
 <meta property="og:title" content="Publications | " />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2019-04-07T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2024-10-01T00:00:00&#43;00:00" />
   
 
 
@@ -333,14 +372,14 @@
 
 
 
-
-  
-  
-  
 
   
   
-    <link rel="alternate" href="hilarious-malabi-6f4d0b.netlify.app/publication/index.xml" type="application/rss+xml" title="" />
+  
+
+  
+  
+    <link rel="alternate" href="/publication/index.xml" type="application/rss+xml" title="" />
   
 
   
@@ -378,7 +417,7 @@
   
   
   
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
 
   
 
@@ -446,7 +485,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+        <a class="navbar-brand" href="/"></a>
       </div>
       
 
@@ -459,7 +498,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+        <a class="navbar-brand" href="/"></a>
       </div>
       
 
@@ -502,7 +541,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#about"><span>Home</span></a>
+            <a class="nav-link " href="/#about"><span>Home</span></a>
           </li>
 
           
@@ -539,7 +578,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#projects"><span>Projects</span></a>
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
           </li>
 
           
@@ -576,7 +615,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#publications"><span>Publications</span></a>
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
           </li>
 
           
@@ -613,7 +652,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#talks"><span>Talks</span></a>
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
           </li>
 
           
@@ -650,7 +689,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#contact"><span>Contact</span></a>
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
           
@@ -773,6 +812,45 @@
         
         
       
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -804,16 +882,32 @@
             
             
             
+            <option value=".year-2024">
+              2024
+            </option>
+            
+            <option value=".year-2023">
+              2023
+            </option>
+            
+            <option value=".year-2022">
+              2022
+            </option>
+            
+            <option value=".year-2021">
+              2021
+            </option>
+            
+            <option value=".year-2020">
+              2020
+            </option>
+            
             <option value=".year-2019">
               2019
             </option>
             
-            <option value=".year-2015">
-              2015
-            </option>
-            
-            <option value=".year-2013">
-              2013
+            <option value=".year-2018">
+              2018
             </option>
             
             
@@ -822,6 +916,1140 @@
       </div>
 
       <div id="container-publications">
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2024">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Peter Müllner</span>, <span >
+      Nicole Weidinger</span>, <span >
+      Neven ElSayed</span>, <span >
+      Dominik Kowald</span>, <span >
+      Eduardo Veas</span>
+  </span>
+  (2024).
+  <a href="/publication/2024_ecai/">AI-Powered Immersive Assistance for Interactive Task Execution in Industrial Environments</a>.
+  ECAI'24.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA241037" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2024_ecai/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddia/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=iFdK_TUcVQs" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3233/FAIA241037" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2023">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Dominik Kowald</span>, <span >
+      Emanuel Lacić</span>, <span >
+      Elisabeth Lex</span>
+  </span>
+  (2023).
+  <a href="/publication/2023_frontiers/">Beyond-Accuracy: A Review on Diversity, Serendipity, and Fairness in Recommender Systems Based on Graph Neural Networks</a>.
+  Front. Big Data.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.frontiersin.org/articles/10.3389/fdata.2023.1251072/pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2023_frontiers/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddia/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3389/fdata.2023.1251072" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2023">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Emanuel Lacić</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Leon Fadljević</span>, <span >
+      Dieter Theiler</span>, <span >
+      Dominik Kowald</span>
+  </span>
+  (2023).
+  <a href="/publication/2023_ecir/">Uptrendz: API-Centric Real-time Recommendations in Multi-Domain Settings</a>.
+  ECIR'23.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2301.01037" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2023_ecir/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-031-28241-6_23" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2023">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Mario Lovrić</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Hussain Hussain</span>, <span >
+      Bono Lucić</span>, <span >
+      Roman Kern</span>
+  </span>
+  (2023).
+  <a href="/publication/2023_chemrxiv/">PyChemFlow: an automated pre-processing pipeline in Python for reproducible machine learning on chemical data</a>.
+  ChemRxiv.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64b9082aae3d1a7b0d0a53dc/original/py-chem-flow-an-automated-pre-processing-pipeline-in-python-for-reproducible-machine-learning-on-chemical-data.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2023_chemrxiv/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.26434/chemrxiv-2023-3zpw0" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2022">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Dominik Kowald</span>, <span >
+      Markus Schedl</span>, <span >
+      Elisabeth Lex</span>
+  </span>
+  (2022).
+  <a href="/publication/2021_asonam/">My friends also prefer diverse music: homophily and link prediction with user preferences for mainstream, novelty, and diversity in music</a>.
+  ASONAM'21.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3487351.3492706" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_asonam/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3487351.3492706" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2021">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Hussain Hussain</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Elisabeth Lex</span>, <span >
+      Denis Helić</span>, <span >
+      Roman Kern</span>
+  </span>
+  (2021).
+  <a href="/publication/2021_ans/">The interplay between communities and homophily in semi-supervised classification using graph neural networks</a>.
+  Appl. Netw. Sci.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://link.springer.com/content/pdf/10.1007/s41109-021-00423-1.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_ans/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s41109-021-00423-1" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2021">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Oana Inel</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Harmanpreet Kaur</span>, <span >
+      Elisabeth Lex</span>, <span >
+      Nava Tintarev</span>
+  </span>
+  (2021).
+  <a href="/publication/2021_frontiers/">Design Implications for Explanations: A Case Study on Supporting Reflective Assessment of Potentially Misleading Videos</a>.
+  Front. Artif. Intell.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://pure.tudelft.nl/ws/files/100348020/frai_04_712072.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_frontiers/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s41109-021-00423-1" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2021">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Hussain Hussain</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Elisabeth Lex</span>, <span >
+      Denis Helić</span>, <span >
+      Markus Strohmaier</span>, <span >
+      Roman Kern</span>
+  </span>
+  (2021).
+  <a href="/publication/2021_ht/">Structack: Structure-based Adversarial Attacks on Graph Neural Networks</a>.
+  HT'21.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3465336.3475110" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_ht/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3465336.3475110" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2021">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Mario Lovrić</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Han T.N. Tran</span>, <span >
+      Hussain Hussain</span>, <span >
+      Emanuel Lacić</span>, <span >
+      Morten A. Rasmussen</span>, <span >
+      Roman Kern</span>
+  </span>
+  (2021).
+  <a href="/publication/2021_mdpi/">Should We Embed in Chemistry? A Comparison of Unsupervised Transfer Learning with PCA, UMAP, and VAE on Molecular Fingerprints</a>.
+  Pharmaceuticals (MDPI).
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.mdpi.com/1424-8247/14/8/758/pdf?version=1628069072" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_mdpi/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3390/ph14080758" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2021">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Volker Seiser</span>, <span >
+      Elisabeth Lex</span>
+  </span>
+  (2021).
+  <a href="/publication/2021_ic2s2/">Cross-platform analysis of user comments in YouTube videos linked on Reddit’s conspiracy theory forum</a>.
+  IC2S2'21.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://easychair.org/publications/preprint/cvtt/open" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_ic2s2/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-031-28241-6_23" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2021">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Hussain Hussain</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Elisabeth Lex</span>, <span >
+      Roman Kern</span>, <span >
+      Denis Helić</span>
+  </span>
+  (2021).
+  <a href="/publication/2020_complenet/">On the Impact of Communities on Semi-supervised Classification Using Graph Neural Networks</a>.
+  CompleNet'20.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2010.16245" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2020_complenet/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-030-65351-4_2" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2020">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Hussain Hussain</span>, <span >
+      Emanuel Lacić</span>, <span >
+      Dominik Kowald</span>, <span >
+      Denis Helić</span>, <span >
+      Elisabeth Lex</span>
+  </span>
+  (2020).
+  <a href="/publication/2020_ismis/">Empirical Comparison of Graph Embeddings for Trust-Based Collaborative Filtering</a>.
+  ISMIS'20.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2003.13345" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2020_ismis/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-030-59491-6_17" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Emanuel Lacić</span>, <span >
+      Markus Reiter-Haas</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Valentin Slawicek</span>, <span >
+      Elisabeth Lex</span>
+  </span>
+  (2019).
+  <a href="/publication/2019_recsys/">Should we embed? A study on the online performance of utilizing embeddings for real-time job recommendations</a>.
+  RecSys'19.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://elacic.me/documents/2019_RecSys_Emb.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2019_recsys/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/studo/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3298689.334698" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
         
 
         
@@ -842,10 +2070,14 @@
     
 
   <span class="author-highlighted">
-      Tomislav Đuričić</span>
+      Tomislav Đuričić</span>, <span >
+      Emanuel Lacić</span>, <span >
+      Dominik Kowald</span>, <span >
+      Elisabeth Lex</span>
   </span>
   (2019).
-  <a href="hilarious-malabi-6f4d0b.netlify.app/publication/preprint/">An example preprint / working paper</a>.
+  <a href="/publication/2019_eurocss/">Exploiting weak ties in trust-based recommender systems using regular equivalence</a>.
+  EURO CSS'19.
   
   <p>
 
@@ -862,171 +2094,32 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
-  Dataset
-</a>
-
-
-
-  
-    
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    Custom Link</a>
-
-</p>
-
-  
-  
-</div>
-
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2015">
-          
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span class="author-highlighted">
-      Tomislav Đuričić</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
-  </span>
-  (2015).
-  <a href="hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/">An example journal article</a>.
-  <em>Journal of Source Themes, 1</em>(1).
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1907.11620" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/cite.bib">
+        data-filename="/publication/2019_eurocss/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3298689.334698" target="_blank" rel="noopener">
+  DOI
 </a>
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
 
 
 </p>
@@ -1043,7 +2136,7 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2013">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2018">
           
 
 
@@ -1057,12 +2150,14 @@
     
 
   <span class="author-highlighted">
-      Tomislav Đuričić</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+      Tomislav Đuričić</span>, <span >
+      Emanuel Lacić</span>, <span >
+      Dominik Kowald</span>, <span >
+      Elisabeth Lex</span>
   </span>
-  (2013).
-  <a href="hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/">An example conference paper</a>.
-  In <em>ICW</em>.
+  (2018).
+  <a href="/publication/2018_recsys/">Trust-based collaborative filtering: tackling the cold start problem using regular equivalence</a>.
+  RecSys'18.
   
   <p>
 
@@ -1074,42 +2169,109 @@
 
 
   
+    
+  
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/conference-paper.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1807.06839" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/cite.bib">
+        data-filename="/publication/2018_recsys/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3240323.3240404" target="_blank" rel="noopener">
+  DOI
 </a>
 
 
+</p>
+
   
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2018">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Emanuel Lacić</span>, <span >
+      Matthias Traub</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Eva Haslauer</span>, <span >
+      Elisabeth Lex</span>
+  </span>
+  (2018).
+  <a href="/publication/2018_it/">Gone in 30 days! Predictions for car import planning</a>.
+  it - Information Technology.
+  
+  <p>
+
+
+
+
+
+
+
+
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Dataset
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://elacic.me/documents/2018_IT_SI_Journal.pdf" target="_blank" rel="noopener">
+  PDF
 </a>
 
 
 
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2018_it/cite.bib">
+  Cite
+</a>
+
+
+
+
+
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/project/example/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/porsche/">
     Project
   </a>
   
@@ -1117,30 +2279,14 @@
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtube.com" target="_blank" rel="noopener">
-  Video
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1515/itit-2017-0040" target="_blank" rel="noopener">
+  DOI
 </a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Source Document
-</a>
-
 
 
 </p>
@@ -1212,7 +2358,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2025 Tomislav Đuričić. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1255,7 +2401,7 @@
   
 
 
-<script src="/hilarious-malabi-6f4d0b.netlify.app/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
+<script src="/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
 
 
 
@@ -1328,7 +2474,7 @@
 
 
 
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1342,7 +2488,7 @@
   
 
 
-<script src="/hilarious-malabi-6f4d0b.netlify.app/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
+<script src="/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
 
 
 
@@ -1378,7 +2524,7 @@
 </div>
 
 
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
 
 
 

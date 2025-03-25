@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node Centrality | </title>
+    <link>https://tduricic.me/tag/node-centrality/</link>
+      <atom:link href="https://tduricic.me/tag/node-centrality/index.xml" rel="self" type="application/rss+xml" />
+    <description>Node Centrality</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 29 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Node Centrality</title>
+      <link>https://tduricic.me/tag/node-centrality/</link>
+    </image>
+    
+    <item>
+      <title>Structack: Structure-based Adversarial Attacks on Graph Neural Networks</title>
+      <link>https://tduricic.me/publication/2021_ht/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_ht/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

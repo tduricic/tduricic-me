@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semi-Supervised Learning | </title>
+    <link>https://tduricic.me/tag/semi-supervised-learning/</link>
+      <atom:link href="https://tduricic.me/tag/semi-supervised-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Semi-Supervised Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Semi-Supervised Learning</title>
+      <link>https://tduricic.me/tag/semi-supervised-learning/</link>
+    </image>
+    
+    <item>
+      <title>The interplay between communities and homophily in semi-supervised classification using graph neural networks</title>
+      <link>https://tduricic.me/publication/2021_ans/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_ans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Impact of Communities on Semi-supervised Classification Using Graph Neural Networks</title>
+      <link>https://tduricic.me/publication/2020_complenet/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2020_complenet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startup Education | </title>
+    <link>https://tduricic.me/tag/startup-education/</link>
+      <atom:link href="https://tduricic.me/tag/startup-education/index.xml" rel="self" type="application/rss+xml" />
+    <description>Startup Education</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Startup Education</title>
+      <link>https://tduricic.me/tag/startup-education/</link>
+    </image>
+    
+    <item>
+      <title>COGSTEPS - Crossing the Gap: Startup Education and Support for Researchers</title>
+      <link>https://tduricic.me/project/cogsteps/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/cogsteps/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_september-2020--august-2023_&#34;&gt;Project Overview &lt;em&gt;(September 2020 – August 2023)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;COGSTEPS&lt;/strong&gt; project, funded under the &lt;a href=&#34;https://erasmus-plus.ec.europa.eu/projects/search/details/2020-1-HR01-KA203-077785&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ERASMUS+ Strategic Partnerships for Higher Education&lt;/a&gt;, aimed to bridge the gap between academia and the startup ecosystem. Coordinated by the University of Zagreb, it involved partners from Austria, Slovenia, and Croatia. The project&amp;rsquo;s key goals included fostering entrepreneurial mindsets among researchers, launching more university spin-offs, and creating a regional hub for innovation.&lt;/p&gt;
+&lt;p&gt;This project marked the first successful ERASMUS+ proposal from Know Center Research, securing approximately €350,000 funding for six partners over three years.&lt;/p&gt;
+&lt;h2 id=&#34;main-objectives&#34;&gt;Main Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Change perceptions about startups within academic and scientific communities.&lt;/li&gt;
+&lt;li&gt;Increase the number of startups and spin-offs emerging from universities.&lt;/li&gt;
+&lt;li&gt;Develop entrepreneurial, transferable, and transversal skills among students, researchers, and academics.&lt;/li&gt;
+&lt;li&gt;Create an innovative digital platform for matchmaking and startup education.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;implementation-and-activities&#34;&gt;Implementation and Activities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Development and integration of the ScaR recommender system into the COGSTEPS platform for personalized content and matchmaking recommendations.&lt;/li&gt;
+&lt;li&gt;Organized educational bootcamps and workshops across Graz, Zagreb, and Ljubljana.&lt;/li&gt;
+&lt;li&gt;Conducted dissemination events including a major event at PODIM Conference in Maribor and a final demonstration day in Graz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results--impact&#34;&gt;Results &amp;amp; Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed the &lt;a href=&#34;https://cogsteps.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COGSTEPS platform&lt;/a&gt; for networking, education, and matchmaking between researchers, startup founders, mentors, incubators, and investors.&lt;/li&gt;
+&lt;li&gt;Successfully implemented multiple educational programs tailored to different stages of startup development (from idea validation to growth).&lt;/li&gt;
+&lt;li&gt;Enhanced regional collaboration, significantly contributing to the development of the startup ecosystem within academic institutions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;personal-contribution&#34;&gt;Personal Contribution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Acted as software and ML engineer at Know Center Research, integrating the ScaR recommender system into the web platform.&lt;/li&gt;
+&lt;li&gt;Led project management and startup mentoring efforts at Graz University of Technology, managing a small internal team.&lt;/li&gt;
+&lt;li&gt;Coordinated international collaboration, event planning, and participant engagement, directly contributing to the project&amp;rsquo;s successful delivery.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

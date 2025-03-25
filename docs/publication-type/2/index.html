@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: September 15, 2024 --><html lang="en-us" >
+<!-- Last Published: March 25, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -70,7 +70,7 @@
 
   
 
-  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
 
   
   
@@ -212,7 +212,7 @@
   
   
   
-  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
 
   
   
@@ -227,8 +227,8 @@
   
     
     
-    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
   
 
   
@@ -236,6 +236,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0G6M6XGFC9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-0G6M6XGFC9', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -280,17 +319,17 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="hilarious-malabi-6f4d0b.netlify.app/publication-type/2/" />
-<link rel="canonical" href="hilarious-malabi-6f4d0b.netlify.app/publication-type/2/" />
+<link rel="alternate" hreflang="en-us" href="https://tduricic.me/publication-type/2/" />
+<link rel="canonical" href="https://tduricic.me/publication-type/2/" />
 
 
 
-  <link rel="manifest" href="hilarious-malabi-6f4d0b.netlify.app/manifest.webmanifest" />
+  <link rel="manifest" href="/manifest.webmanifest" />
 
 
 
-<link rel="icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -315,14 +354,14 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:image" content="https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="" />
-<meta property="og:url" content="hilarious-malabi-6f4d0b.netlify.app/publication-type/2/" />
+<meta property="og:url" content="https://tduricic.me/publication-type/2/" />
 <meta property="og:title" content="2 | " />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2015-09-01T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2023-12-19T00:00:00&#43;00:00" />
   
 
 
@@ -333,14 +372,14 @@
 
 
 
-
-  
-  
-  
 
   
   
-    <link rel="alternate" href="hilarious-malabi-6f4d0b.netlify.app/publication-type/2/index.xml" type="application/rss+xml" title="" />
+  
+
+  
+  
+    <link rel="alternate" href="/publication-type/2/index.xml" type="application/rss+xml" title="" />
   
 
   
@@ -378,7 +417,7 @@
   
   
   
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
 
   
 
@@ -446,7 +485,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+        <a class="navbar-brand" href="/"></a>
       </div>
       
 
@@ -459,7 +498,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+        <a class="navbar-brand" href="/"></a>
       </div>
       
 
@@ -502,7 +541,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#about"><span>Home</span></a>
+            <a class="nav-link " href="/#about"><span>Home</span></a>
           </li>
 
           
@@ -539,7 +578,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#projects"><span>Projects</span></a>
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
           </li>
 
           
@@ -576,7 +615,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#publications"><span>Publications</span></a>
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
           </li>
 
           
@@ -613,7 +652,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#talks"><span>Talks</span></a>
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
           </li>
 
           
@@ -650,7 +689,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#contact"><span>Contact</span></a>
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
           
@@ -784,13 +823,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/" >An example journal article</a>
+      <a href="/publication/2023_frontiers/" >Beyond-Accuracy: A Review on Diversity, Serendipity, and Fairness in Recommender Systems Based on Graph Neural Networks</a>
     </div>
 
     
-    <a href="hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/"  class="summary-link">
+    <a href="/publication/2023_frontiers/"  class="summary-link">
       <div class="article-style">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+        Recommender systems are vital to online platforms, with Graph Neural Network (GNN) approaches showing excellent accuracy. However, beyond-accuracy metrics like diversity, serendipity, and fairness significantly impact user satisfaction. This review examines these dimensions in GNN-based recommenders, analyzing recent developments that balance accuracy with these broader objectives. We explore how various model development stages—from data preprocessing to training methodologies—affect these metrics. The paper addresses practical challenges in maintaining high accuracy while enhancing diversity, serendipity, and fairness, and outlines future research directions for more holistic GNN-based recommender systems. Our contribution lies in providing a comprehensive understanding of the multidimensional considerations essential to effective recommender system design.
       </div>
     </a>
     
@@ -804,8 +843,10 @@
         
 
   <span class="author-highlighted">
-      Tomislav Đuričić</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+      Tomislav Đuričić</span>, <span >
+      Dominik Kowald</span>, <span >
+      Emanuel Lacić</span>, <span >
+      Elisabeth Lex</span>
       </div>
       
     </div>
@@ -827,40 +868,38 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.frontiersin.org/articles/10.3389/fdata.2023.1251072/pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/cite.bib">
+        data-filename="/publication/2023_frontiers/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
 
 
 
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/slides/example/" target="_blank">
-    Slides
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddia/">
+    Project
   </a>
   
 
 
 
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3389/fdata.2023.1251072" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 
@@ -872,9 +911,495 @@
     
     
       
-      <a href="hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/" >
-        <img src="/hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q75_h2_lanczos.webp" height="91" width="150"
-            alt="An example journal article" loading="lazy">
+      <a href="/publication/2023_frontiers/" >
+        <img src="/publication/2023_frontiers/featured_huc773e02aa9a6909a6228784ce5e32eb3_458957_150x0_resize_q75_h2_lanczos.webp" height="191" width="150"
+            alt="Beyond-Accuracy: A Review on Diversity, Serendipity, and Fairness in Recommender Systems Based on Graph Neural Networks" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2021_ans/" >The interplay between communities and homophily in semi-supervised classification using graph neural networks</a>
+    </div>
+
+    
+    <a href="/publication/2021_ans/"  class="summary-link">
+      <div class="article-style">
+        This study investigates how community structure and homophily influence Graph Neural Networks (GNNs) in semi-supervised node classification tasks. By systematically modifying eight datasets and measuring GNN performance with and without these structural properties, we demonstrate their significant impact on classification accuracy and reveal insights about their interaction. We introduce an information-theoretic metric to quantify community-label correlation, providing practical guidelines for model selection based on graph structure. Our findings enhance understanding of GNN capabilities and improve model selection for semi-supervised node classification tasks.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Hussain Hussain</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Elisabeth Lex</span>, <span >
+      Denis Helić</span>, <span >
+      Roman Kern</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://link.springer.com/content/pdf/10.1007/s41109-021-00423-1.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_ans/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s41109-021-00423-1" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2021_ans/" >
+        <img src="/publication/2021_ans/featured_hu071ae025609b50a002494152fbc52de1_74860_150x0_resize_q75_h2_lanczos_3.webp" height="163" width="150"
+            alt="The interplay between communities and homophily in semi-supervised classification using graph neural networks" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2021_frontiers/" >Design Implications for Explanations: A Case Study on Supporting Reflective Assessment of Potentially Misleading Videos</a>
+    </div>
+
+    
+    <a href="/publication/2021_frontiers/"  class="summary-link">
+      <div class="article-style">
+        This study introduces natural language explanations designed to promote more thoughtful reasoning about online videos and increase awareness of potentially biased or misleading content. We developed an end-to-end pipeline that extracts reflection triggers about video sources, topics, emotions, and sentiment to help users actively evaluate video usefulness. Our between-subjects study examining controversial topics reveals that users&rsquo; alignment with video messages significantly impacts perceived usefulness. While explanations were rated highly, they didn&rsquo;t alter overall usefulness perceptions compared to videos alone. Notably, users with extreme negative alignment found videos less useful regardless of explanations and were more confident in their assessments. We interpret these findings through cognitive dissonance theory and propose design implications for explanations aimed at raising awareness about online deception.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Oana Inel</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Harmanpreet Kaur</span>, <span >
+      Elisabeth Lex</span>, <span >
+      Nava Tintarev</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://pure.tudelft.nl/ws/files/100348020/frai_04_712072.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_frontiers/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s41109-021-00423-1" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2021_frontiers/" >
+        <img src="/publication/2021_frontiers/featured_hubabc0ae39627d31616fc005f142991a0_258426_150x0_resize_q75_h2_lanczos_3.webp" height="93" width="150"
+            alt="Design Implications for Explanations: A Case Study on Supporting Reflective Assessment of Potentially Misleading Videos" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2021_mdpi/" >Should We Embed in Chemistry? A Comparison of Unsupervised Transfer Learning with PCA, UMAP, and VAE on Molecular Fingerprints</a>
+    </div>
+
+    
+    <a href="/publication/2021_mdpi/"  class="summary-link">
+      <div class="article-style">
+        This study examines three unsupervised dimensionality reduction techniques (PCA, UMAP, and VAEs) for toxicology classification tasks. The research compares these embedding methods against standard molecular fingerprint models and explores transfer learning by training embedders on external chemical compound datasets. By testing various embedding dimensions and external dataset sizes, the findings demonstrate that UMAP can effectively complement established techniques like PCA and VAE for pre-compression in toxicology. However, VAE&rsquo;s generative approach shows superior performance in pre-compression for classification accuracy.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Mario Lovrić</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Han T.N. Tran</span>, <span >
+      Hussain Hussain</span>, <span >
+      Emanuel Lacić</span>, <span >
+      Morten A. Rasmussen</span>, <span >
+      Roman Kern</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.mdpi.com/1424-8247/14/8/758/pdf?version=1628069072" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_mdpi/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3390/ph14080758" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2021_mdpi/" >
+        <img src="/publication/2021_mdpi/featured_hu3c6026c6826b5efa60e6a7612b4a1ca8_336225_150x0_resize_q75_h2_lanczos_3.webp" height="98" width="150"
+            alt="Should We Embed in Chemistry? A Comparison of Unsupervised Transfer Learning with PCA, UMAP, and VAE on Molecular Fingerprints" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2018_it/" >Gone in 30 days! Predictions for car import planning</a>
+    </div>
+
+    
+    <a href="/publication/2018_it/"  class="summary-link">
+      <div class="article-style">
+        A challenge for importers in the automobile industry is adjusting to rapidly changing market demands. In this work, we describe a practical study of car import planning based on the monthly car registrations in Austria. We model the task as a data driven forecasting problem and we implement four different prediction approaches. One utilizes a seasonal ARIMA model, while the other is based on LSTM-RNN and both compared to a linear and seasonal baselines. In our experiments, we evaluate the 33 different brands by predicting the number of registrations for the next month and for the year to come.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Emanuel Lacić</span>, <span >
+      Matthias Traub</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Eva Haslauer</span>, <span >
+      Elisabeth Lex</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://elacic.me/documents/2018_IT_SI_Journal.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2018_it/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/porsche/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1515/itit-2017-0040" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2018_it/" >
+        <img src="/publication/2018_it/featured_hu43530e91088134b691082c42947b76b4_232774_150x0_resize_q75_h2_lanczos_3.webp" height="59" width="150"
+            alt="Gone in 30 days! Predictions for car import planning" loading="lazy">
       </a>
     
   </div>
@@ -942,7 +1467,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2025 Tomislav Đuričić. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -985,7 +1510,7 @@
   
 
 
-<script src="/hilarious-malabi-6f4d0b.netlify.app/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
+<script src="/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
 
 
 
@@ -1055,7 +1580,7 @@
 
 
 
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1069,7 +1594,7 @@
   
 
 
-<script src="/hilarious-malabi-6f4d0b.netlify.app/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
+<script src="/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
 
 
 
@@ -1105,7 +1630,7 @@
 </div>
 
 
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
 
 
 

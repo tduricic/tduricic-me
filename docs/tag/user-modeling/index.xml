@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Modeling | </title>
+    <link>https://tduricic.me/tag/user-modeling/</link>
+      <atom:link href="https://tduricic.me/tag/user-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <description>User Modeling</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>User Modeling</title>
+      <link>https://tduricic.me/tag/user-modeling/</link>
+    </image>
+    
+    <item>
+      <title>DDAI - Explainable, Verifiable, and Privacy-Preserving Data-Driven AI</title>
+      <link>https://tduricic.me/project/ddai/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/ddai/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_january-2020--december-2023_&#34;&gt;Project Overview &lt;em&gt;(January 2020 – December 2023)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;DDAI&lt;/strong&gt; Comet Module is a research initiative that integrates privacy-preserving, explainable, and verifiable techniques into data-driven AI systems. Funded through the COMET programme (Competence Centers for Excellent Technologies), the project combines machine learning, cryptography, and interpretability methods to deliver secure and understandable AI solutions.&lt;/p&gt;
+&lt;p&gt;The project involves collaboration between the Know Center Research, Graz University of Technology, and numerous international academic and industrial partners. Additional details can be found on the &lt;a href=&#34;https://ddai.know-center.at/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DDAI project website&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;my-contribution&#34;&gt;My Contribution&lt;/h2&gt;
+&lt;p&gt;My PhD research was partly funded by the DDAI project, enabling me to focus on explainability in recommender systems, graph-based machine learning, and modeling user behavior and preferences. My work specifically involved:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Researching methods for enhancing interpretability and transparency in recommender systems.&lt;/li&gt;
+&lt;li&gt;Evaluating novel approaches to graph embeddings and graph neural networks.&lt;/li&gt;
+&lt;li&gt;Modeling user behavior and preferences to improve the accuracy and relevance of recommendations, particularly exploring aspects such as homophily and diversity.&lt;/li&gt;
+&lt;li&gt;Collaborative research within interdisciplinary teams.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I authored several key publications and contributed significantly to additional studies within the project. Please find the full publication list below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Should we embed? A study on the online performance of utilizing embeddings for real-time job recommendations</title>
+      <link>https://tduricic.me/publication/2019_recsys/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2019_recsys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studo/Talto Job Matchmaking Platform</title>
+      <link>https://tduricic.me/project/studo/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/studo/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_june-2017--september-2019_&#34;&gt;Project Overview &lt;em&gt;(June 2017 – September 2019)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;At Know Center Research, we partnered with Studo, a widely-used student app in Germany and Austria, to develop a personalized recommender system for their job listings feature. The successful solution later evolved into the dedicated platform &amp;ldquo;Talto – Talents of Tomorrow,&amp;rdquo; significantly enhancing the student job application process through intelligent matchmaking.&lt;/p&gt;
+&lt;p&gt;The initial project phase (&amp;ldquo;Studo Matchmaking Recommender – Empfehlungs Plattform personalisierter Job Anzeigen für Studenten&amp;rdquo;) ran from June 2017 to May 2018. Following its success, we secured additional funding from the Austrian Research Promotion Agency (FFG) for the follow-up project (&amp;ldquo;FAT – Fair, Accountable &amp;amp; Transparent Matchmaking: Explainability, Sessions, Scoring and Biases for Passive Sourcing&amp;rdquo;), which took place from October 2018 to September 2019.&lt;/p&gt;
+&lt;h2 id=&#34;technical-challenges&#34;&gt;Technical Challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Defining meaningful and varied recommender use-cases for student-job matchmaking&lt;/li&gt;
+&lt;li&gt;Developing custom real-time recommender algorithms to handle diverse data and contexts&lt;/li&gt;
+&lt;li&gt;Ensuring scalability and seamless integration into the Studo app infrastructure&lt;/li&gt;
+&lt;li&gt;Addressing fairness, transparency, and explainability in recommendations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technologies--methods&#34;&gt;Technologies &amp;amp; Methods&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core Development:&lt;/strong&gt; Java, Apache Solr, Microservices with ScaR recommender framework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Machine Learning &amp;amp; Algorithms:&lt;/strong&gt; Python, Doc2Vec embeddings, Autoencoders, Vector Search&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deployment &amp;amp; Testing:&lt;/strong&gt; Docker, Continuous Integration, Extensive Testing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Research &amp;amp; Documentation:&lt;/strong&gt; Scientific publication writing, comprehensive documentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results--impact&#34;&gt;Results &amp;amp; Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved user engagement with the Studo job marketplace (~20% increase)&lt;/li&gt;
+&lt;li&gt;Increased application rate to job postings (~18% increase)&lt;/li&gt;
+&lt;li&gt;Conducted pioneering research on matchmaking algorithms tailored for student and graduate job markets&lt;/li&gt;
+&lt;li&gt;Enabled high-quality personalization even for anonymous users and additional content recommendations (e.g., news articles)&lt;/li&gt;
+&lt;li&gt;Produced multiple impactful academic publications&lt;/li&gt;
+&lt;li&gt;Featured as an FFG success story (&lt;a href=&#34;https://www.ffg.at/sites/default/files/allgemeine_downloads/strukturprogramme/20180329_know_successstory_en_moshbit.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full story here&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;selected-publications&#34;&gt;Selected Publications&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bibtex&#34; data-lang=&#34;bibtex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;lacic2017beyond&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Beyond accuracy optimization: On the value of item embeddings for student job recommendations}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Lacic, Emanuel and Kowald, Dominik and Reiter-Haas, Markus and Slawicek, Valentin and Lex, Elisabeth}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;journal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{arXiv preprint arXiv:1711.07762}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2017}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@inproceedings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;reiter2017studo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Studo Jobs: Enriching Data With Predicted Job Labels}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Reiter-Haas, Markus and Slawicek, Valentin and Lacic, Emanuel}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;booktitle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{CEUR Workshop Proceedings}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;volume&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2025}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2017}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;organization&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{RWTH Aachen}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@inproceedings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;lacic2019should&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Should we embed? A study on the online performance of utilizing embeddings for real-time job recommendations}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Lacic, Emanuel and Reiter-Haas, Markus and Duricic, Tomislav and Slawicek, Valentin and Lex, Elisabeth}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;booktitle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Proceedings of the 13th ACM conference on recommender systems}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{496--500}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2019}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;lacic2020using&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Using autoencoders for session-based job recommendations}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Lacic, Emanuel and Reiter-Haas, Markus and Kowald, Dominik and Reddy Dareddy, Manoj and Cho, Junghoo and Lex, Elisabeth}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;journal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{User Modeling and User-Adapted Interaction}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;volume&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{30}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{617--658}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2020}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;publisher&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Springer}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@inproceedings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;reiter2020heterogeneous&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{On the heterogeneous information needs in the job domain: A unified platform for student career}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Reiter-Haas, Markus and Wittenbrink, David and Lacic, Emanuel}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;booktitle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Proceedings of the 14th ACM Conference on Recommender Systems}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{573--574}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2020}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;personal-contribution&#34;&gt;Personal Contribution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Managed a team of five, overseeing project execution, requirements engineering, and budget planning&lt;/li&gt;
+&lt;li&gt;Actively contributed as a Software Engineer, ML Engineer, and Data Scientist to the development and implementation of recommender algorithms&lt;/li&gt;
+&lt;li&gt;Coordinated deployment and continuous improvement of the platform&lt;/li&gt;
+&lt;li&gt;Authored academic publications and secured additional project funding from FFG&lt;/li&gt;
+&lt;li&gt;Co-advised academic work including one Master&amp;rsquo;s thesis and supported the onboarding of one PhD student&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ScaR: Real-Time Recommender Framework</title>
+      <link>https://tduricic.me/project/scar/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/scar/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_march-2015--december-2020-ongoing-occasionally_&#34;&gt;Project Overview &lt;em&gt;(March 2015 – December 2020, ongoing occasionally)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;At Know Center Research, I have extensively contributed to ScaR (Scalable Recommender), our in-house recommender framework designed for real-time, scalable, and context-aware recommendation scenarios. ScaR follows a microservices architecture, integrating seamlessly with streaming data to provide immediate recommendations without costly recalculations. More information about ScaR is available on the &lt;a href=&#34;https://www.know-center.at/demos/scar-recommender-service/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official project website&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;key-projects-using-scar&#34;&gt;Key Projects Using ScaR&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Master&amp;rsquo;s thesis on social-based recommendation algorithms&lt;/li&gt;
+&lt;li&gt;Student job matchmaking in collaboration with Studo&lt;/li&gt;
+&lt;li&gt;Matchmaking on the VHDD platform&lt;/li&gt;
+&lt;li&gt;Personalized learning content recommendations in the Cogsteps project&lt;/li&gt;
+&lt;li&gt;Adaptive conference session recommendations with Conference Navigator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-challenges&#34;&gt;Technical Challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Immediate processing of high-frequency streaming data&lt;/li&gt;
+&lt;li&gt;Scalability in cloud-based and distributed environments&lt;/li&gt;
+&lt;li&gt;Integration of diverse recommendation algorithms&lt;/li&gt;
+&lt;li&gt;Real-time updates without performance degradation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technologies--methods&#34;&gt;Technologies &amp;amp; Methods&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core Development:&lt;/strong&gt; Java, Apache Solr, Spring Boot, Microservices Architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Management &amp;amp; Processing:&lt;/strong&gt; Real-time data ingestion and handling using Apache Solr&amp;rsquo;s near-real-time features&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Continuous Integration &amp;amp; Deployment:&lt;/strong&gt; Jenkins, Maven, Docker, Apache ZooKeeper&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recommendation Algorithms:&lt;/strong&gt; Content-Based Filtering, Collaborative Filtering, Hybrid Approaches&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing &amp;amp; Maintenance:&lt;/strong&gt; JUnit, comprehensive unit, and integration testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results--impact&#34;&gt;Results &amp;amp; Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Enabled multiple successful commercial and research projects&lt;/li&gt;
+&lt;li&gt;Improved recommendation accuracy and speed across various use cases&lt;/li&gt;
+&lt;li&gt;Featured in many academic publications, with the main reference:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bibtex&#34; data-lang=&#34;bibtex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;@inproceedings&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;lacic2015scar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Scar: Towards a real-time recommender framework following the microservices architecture}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;author&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Lacic, Emanuel and Traub, Matthias and Kowald, Dominik and Lex, Elisabeth}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;booktitle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{Proceedings of the Workshop on Large Scale Recommender Systems (LSRS2015) at RecSys}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;pages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{16--20}&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;na&#34;&gt;year&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;{2015}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;personal-contribution&#34;&gt;Personal Contribution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Acted as a core contributor, significantly influencing the framework&amp;rsquo;s features and development&lt;/li&gt;
+&lt;li&gt;Implemented and tested various recommendation algorithms within ScaR&lt;/li&gt;
+&lt;li&gt;Integrated ScaR into multiple industry and academic projects&lt;/li&gt;
+&lt;li&gt;Assisted with maintenance, deployment, and infrastructure improvements for enhanced scalability and reliability&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

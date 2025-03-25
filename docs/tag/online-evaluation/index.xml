@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Online Evaluation | </title>
+    <link>https://tduricic.me/tag/online-evaluation/</link>
+      <atom:link href="https://tduricic.me/tag/online-evaluation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Online Evaluation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Online Evaluation</title>
+      <link>https://tduricic.me/tag/online-evaluation/</link>
+    </image>
+    
+    <item>
+      <title>Should we embed? A study on the online performance of utilizing embeddings for real-time job recommendations</title>
+      <link>https://tduricic.me/publication/2019_recsys/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2019_recsys/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,127 +2,623 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/</loc>
-    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/publication-type/1/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/talk/presentation-at-the-ebdvf-2021/</loc>
+    <loc>https://tduricic.me/tag/ai-assistants/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2024_ecai/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/digital-twins/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/human-computer-interaction/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/immersive-analytics/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/industrial-assistance/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/large-language-models/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication_types/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tags/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/virtual-reality/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/</loc>
+    <lastmod>2024-09-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication-type/2/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/beyond-accuracy-metrics/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2023_frontiers/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/diversity/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/fairness/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/graph-neural-networks/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/machine-learning/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/recommender-systems/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/serendipity/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/augmented-reality/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/project/ddia/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/embodied-interaction/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/meta-aria/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/meta-quest/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/microsoft-hololens/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/personalization/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/physiological-sensing/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/project/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/unity/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication-type/3/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/api-centric-design/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/chemical-informatics/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/data-pipeline/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/data-preprocessing/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/multi-domain/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/pipeline-automation/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2023_chemrxiv/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/python-libraries/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/real-time-analytics/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/reproducibility/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/scientific-computing/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/software-engineering/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/system-architecture/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2023_ecir/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/automotive/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/automotive-diagnostics/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/project/avl/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/fault-tree-analysis/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/sequential-recommendation/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/text-embeddings/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/homophily/</loc>
+    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/link-prediction/</loc>
+    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/music-recommendations/</loc>
+    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2021_asonam/</loc>
+    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/novelty/</loc>
+    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/social-networks/</loc>
+    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/user-preferences/</loc>
+    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/talk/presentation-at-the-ebdvf-2021/</loc>
     <lastmod>2021-12-01T12:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/event/</loc>
+    <loc>https://tduricic.me/event/</loc>
     <lastmod>2021-12-01T12:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/talk/panel-discussion-at-zagreb-connect-2021/</loc>
+    <loc>https://tduricic.me/talk/panel-discussion-at-zagreb-connect-2021/</loc>
     <lastmod>2021-11-23T10:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/tag/academic/</loc>
+    <loc>https://tduricic.me/tag/community-structure/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/network-science/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/node-classification/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/semi-supervised-learning/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2021_ans/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/content-assessment/</loc>
+    <lastmod>2021-09-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2021_frontiers/</loc>
+    <lastmod>2021-09-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/explanations/</loc>
+    <lastmod>2021-09-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/information-quality/</loc>
+    <lastmod>2021-09-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/user-behavior/</loc>
+    <lastmod>2021-09-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/adversarial-attacks/</loc>
+    <lastmod>2021-08-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/graph-structure/</loc>
+    <lastmod>2021-08-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/network-security/</loc>
+    <lastmod>2021-08-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/node-centrality/</loc>
+    <lastmod>2021-08-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/robustness/</loc>
+    <lastmod>2021-08-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2021_ht/</loc>
+    <lastmod>2021-08-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/dimensionality-reduction/</loc>
+    <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/molecular-fingerprints/</loc>
+    <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2021_mdpi/</loc>
+    <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/transfer-learning/</loc>
+    <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/umap/</loc>
+    <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/variational-autoencoders/</loc>
+    <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/conspiracy-theories/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/cross-platform-analysis/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2021_ic2s2/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/information-diffusion/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/social-media/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/text-analysis/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/community-detection/</loc>
+    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/network-analysis/</loc>
+    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2020_complenet/</loc>
+    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/categories/</loc>
+    <loc>https://tduricic.me/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/category/demo/</loc>
+    <loc>https://tduricic.me/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/post/</loc>
+    <loc>https://tduricic.me/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/tags/</loc>
+    <loc>https://tduricic.me/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/cold-start-problem/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/collaborative-filtering/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/empirical-analysis/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/post/writing-technical-content/</loc>
+    <loc>https://tduricic.me/publication/2020_ismis/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/graph-embeddings/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/trust-networks/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/project/cogsteps/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/entrepreneurship/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/matchmaking/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/project-management/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/real-time-recommendations/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/startup-education/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/project/ddai/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/explainable-ai/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/privacy-preserving-ai/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/user-modeling/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/embeddings/</loc>
+    <lastmod>2019-09-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/job-matching/</loc>
+    <lastmod>2019-09-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/online-evaluation/</loc>
+    <lastmod>2019-09-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/publication/2019_recsys/</loc>
+    <lastmod>2019-09-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/publication-type/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/publication/2019_eurocss/</loc>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/network-theory/</loc>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/regular-equivalence/</loc>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/weak-ties/</loc>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/tag/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/post/jupyter/</loc>
+    <loc>https://tduricic.me/post/jupyter/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/slides/</loc>
+    <loc>https://tduricic.me/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/slides/example/</loc>
+    <loc>https://tduricic.me/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/publication/2018_recsys/</loc>
+    <lastmod>2018-09-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/tag/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/microservices/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/resource-recommendation/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/project/vhdd/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/automotive-industry/</loc>
+    <lastmod>2018-07-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/publication-type/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/demand-forecasting/</loc>
+    <lastmod>2018-07-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/publication/2018_it/</loc>
+    <lastmod>2018-07-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/lstm/</loc>
+    <lastmod>2018-07-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>https://tduricic.me/tag/predictive-analytics/</loc>
+    <lastmod>2018-07-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>hilarious-malabi-6f4d0b.netlify.app/admin/</loc>
+    <loc>https://tduricic.me/tag/sarima/</loc>
+    <lastmod>2018-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/time-series-analysis/</loc>
+    <lastmod>2018-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/project/studo/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/vector-search/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/dashboard-development/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/data-visualization/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/project/porsche/</loc>
+    <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/project/detego/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/outlier-detection/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/real-time-processing/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/retail-analytics/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/classification/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/image-analysis/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/project/ifolor/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/supervised-learning/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/api/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/tag/data-streaming/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/project/scar/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://tduricic.me/admin/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

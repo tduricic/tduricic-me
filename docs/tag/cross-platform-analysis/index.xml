@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cross-Platform Analysis | </title>
+    <link>https://tduricic.me/tag/cross-platform-analysis/</link>
+      <atom:link href="https://tduricic.me/tag/cross-platform-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cross-Platform Analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Cross-Platform Analysis</title>
+      <link>https://tduricic.me/tag/cross-platform-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Cross-platform analysis of user comments in YouTube videos linked on Reddit’s conspiracy theory forum</title>
+      <link>https://tduricic.me/publication/2021_ic2s2/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_ic2s2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

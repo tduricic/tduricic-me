@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dashboard Development | </title>
+    <link>https://tduricic.me/tag/dashboard-development/</link>
+      <atom:link href="https://tduricic.me/tag/dashboard-development/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dashboard Development</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Dashboard Development</title>
+      <link>https://tduricic.me/tag/dashboard-development/</link>
+    </image>
+    
+    <item>
+      <title>Porsche Holding Demand Prediction Dashboard</title>
+      <link>https://tduricic.me/project/porsche/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/porsche/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_july-2016--july-2018_&#34;&gt;Project Overview &lt;em&gt;(July 2016 – July 2018)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;At Know Center Research, we collaborated with Porsche Holding GmbH (Porsche Holding Salzburg), Europe&amp;rsquo;s largest automotive distributor, representing Volkswagen Group brands in wholesale, retail, and after-sales services. Porsche sought an accurate time-series prediction solution to optimize monthly car orders based on historical sales data.&lt;/p&gt;
+&lt;h2 id=&#34;technical-challenges&#34;&gt;Technical Challenges&lt;/h2&gt;
+&lt;p&gt;Key challenges faced in this project included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Handling large and varied time-series datasets&lt;/li&gt;
+&lt;li&gt;Performing thorough data cleaning and exploratory analysis&lt;/li&gt;
+&lt;li&gt;Conducting comprehensive hyperparameter optimization&lt;/li&gt;
+&lt;li&gt;Implementing accurate linear and non-linear predictive models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technologies--methods&#34;&gt;Technologies &amp;amp; Methods&lt;/h2&gt;
+&lt;p&gt;The solution was built using advanced data analytics and visualization tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Machine Learning &amp;amp; Analysis:&lt;/strong&gt; Python, R, ARIMA, SARIMA, LSTM neural networks (Keras)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Visualization &amp;amp; Dashboard:&lt;/strong&gt; Interactive dashboards using Plotly&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Exploration &amp;amp; Cleaning:&lt;/strong&gt; Extensive data preprocessing, feature engineering, and exploratory data analysis (EDA)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Research &amp;amp; Publication:&lt;/strong&gt; Scientific publication highlighting methodology and results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results--impact&#34;&gt;Results &amp;amp; Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Delivered an end-to-end predictive analytics dashboard integrated into Porsche Holding&amp;rsquo;s operational processes&lt;/li&gt;
+&lt;li&gt;Improved accuracy in predicting monthly car order requirements&lt;/li&gt;
+&lt;li&gt;Recognized internally with the company&amp;rsquo;s Project Excellence Silver Award&lt;/li&gt;
+&lt;li&gt;Successfully collaborated on a research publication titled &amp;ldquo;Gone in 30 days! Predictions for car import planning&amp;rdquo; in the journal Information Technology&lt;/li&gt;
+&lt;li&gt;Featured as a success story in Austria’s Trend magazine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Porsche Project Featured in Trend Magazine&#34; srcset=&#34;
+               /project/porsche/socialcomputing-detego-porsche_hua8caa18783efa5368a603ed4f2438712_1762507_ef92b3d106b93cfbb9f016e7334eea78.webp 400w,
+               /project/porsche/socialcomputing-detego-porsche_hua8caa18783efa5368a603ed4f2438712_1762507_7a3dfaa1dc87403a1ed5deb07566c397.webp 760w,
+               /project/porsche/socialcomputing-detego-porsche_hua8caa18783efa5368a603ed4f2438712_1762507_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://tduricic.me/project/porsche/socialcomputing-detego-porsche_hua8caa18783efa5368a603ed4f2438712_1762507_ef92b3d106b93cfbb9f016e7334eea78.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;508&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;personal-contribution&#34;&gt;Personal Contribution&lt;/h2&gt;
+&lt;p&gt;As a Software Engineer, ML Engineer, and Data Scientist, my responsibilities included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developing the complete data processing and cleaning pipeline&lt;/li&gt;
+&lt;li&gt;Conducting extensive data exploration and feature engineering&lt;/li&gt;
+&lt;li&gt;Researching and implementing linear and non-linear time-series predictive models (ARIMA, SARIMA, LSTM)&lt;/li&gt;
+&lt;li&gt;Creating interactive visualizations and predictive analytics dashboards with Plotly&lt;/li&gt;
+&lt;li&gt;Co-authoring the research publication and presenting&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

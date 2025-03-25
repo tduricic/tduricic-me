@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: September 15, 2024 --><html lang="en-us" >
+<!-- Last Published: March 25, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -70,7 +70,7 @@
 
   
 
-  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
 
   
   
@@ -212,7 +212,7 @@
   
   
   
-  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
 
   
   
@@ -227,8 +227,8 @@
   
     
     
-    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
   
 
   
@@ -236,6 +236,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0G6M6XGFC9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-0G6M6XGFC9', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -280,17 +319,17 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="hilarious-malabi-6f4d0b.netlify.app/publication-type/1/" />
-<link rel="canonical" href="hilarious-malabi-6f4d0b.netlify.app/publication-type/1/" />
+<link rel="alternate" hreflang="en-us" href="https://tduricic.me/publication-type/1/" />
+<link rel="canonical" href="https://tduricic.me/publication-type/1/" />
 
 
 
-  <link rel="manifest" href="hilarious-malabi-6f4d0b.netlify.app/manifest.webmanifest" />
+  <link rel="manifest" href="/manifest.webmanifest" />
 
 
 
-<link rel="icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -315,14 +354,14 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:image" content="https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="" />
-<meta property="og:url" content="hilarious-malabi-6f4d0b.netlify.app/publication-type/1/" />
+<meta property="og:url" content="https://tduricic.me/publication-type/1/" />
 <meta property="og:title" content="1 | " />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2013-07-01T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2024-10-01T00:00:00&#43;00:00" />
   
 
 
@@ -333,14 +372,14 @@
 
 
 
-
-  
-  
-  
 
   
   
-    <link rel="alternate" href="hilarious-malabi-6f4d0b.netlify.app/publication-type/1/index.xml" type="application/rss+xml" title="" />
+  
+
+  
+  
+    <link rel="alternate" href="/publication-type/1/index.xml" type="application/rss+xml" title="" />
   
 
   
@@ -378,7 +417,7 @@
   
   
   
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
 
   
 
@@ -446,7 +485,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+        <a class="navbar-brand" href="/"></a>
       </div>
       
 
@@ -459,7 +498,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+        <a class="navbar-brand" href="/"></a>
       </div>
       
 
@@ -502,7 +541,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#about"><span>Home</span></a>
+            <a class="nav-link " href="/#about"><span>Home</span></a>
           </li>
 
           
@@ -539,7 +578,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#projects"><span>Projects</span></a>
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
           </li>
 
           
@@ -576,7 +615,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#publications"><span>Publications</span></a>
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
           </li>
 
           
@@ -613,7 +652,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#talks"><span>Talks</span></a>
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
           </li>
 
           
@@ -650,7 +689,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#contact"><span>Contact</span></a>
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
           
@@ -784,13 +823,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/" >An example conference paper</a>
+      <a href="/publication/2024_ecai/" >AI-Powered Immersive Assistance for Interactive Task Execution in Industrial Environments</a>
     </div>
 
     
-    <a href="hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/"  class="summary-link">
+    <a href="/publication/2024_ecai/"  class="summary-link">
       <div class="article-style">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+        This demo paper presents an AI-powered immersive assistance system that helps users perform complex industrial tasks. Our VR-based digital twin simulates complex machinery, and by processing expert video and speech with AI models, it provides step-by-step guidance. This proof-of-concept demonstrates potential benefits like reduced cognitive load, increased productivity, and enhanced safety in industrial environments.
       </div>
     </a>
     
@@ -804,8 +843,12 @@
         
 
   <span class="author-highlighted">
-      Tomislav Đuričić</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+      Tomislav Đuričić</span>, <span >
+      Peter Müllner</span>, <span >
+      Nicole Weidinger</span>, <span >
+      Neven ElSayed</span>, <span >
+      Dominik Kowald</span>, <span >
+      Eduardo Veas</span>
       </div>
       
     </div>
@@ -822,42 +865,28 @@
 
 
   
+    
+  
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/conference-paper.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA241037" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/cite.bib">
+        data-filename="/publication/2024_ecai/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Dataset
-</a>
 
 
 
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/project/example/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddia/">
     Project
   </a>
   
@@ -865,30 +894,22 @@
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/slides/example/" target="_blank">
-    Slides
-  </a>
-  
+
 
 
   
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtube.com" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.youtube.com/watch?v=iFdK_TUcVQs" target="_blank" rel="noopener">
   Video
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Source Document
-</a>
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3233/FAIA241037" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 
@@ -900,9 +921,850 @@
     
     
       
-      <a href="hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/" >
-        <img src="/hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q75_h2_lanczos.webp" height="100" width="150"
-            alt="An example conference paper" loading="lazy">
+      <a href="/publication/2024_ecai/" >
+        <img src="/publication/2024_ecai/featured_hu1b11b0e698bf756072cd9487fa256f2e_1391305_150x0_resize_q75_h2_lanczos_3.webp" height="55" width="150"
+            alt="AI-Powered Immersive Assistance for Interactive Task Execution in Industrial Environments" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2023_ecir/" >Uptrendz: API-Centric Real-time Recommendations in Multi-Domain Settings</a>
+    </div>
+
+    
+    <a href="/publication/2023_ecir/"  class="summary-link">
+      <div class="article-style">
+        Uptrendz is a multi-domain recommendation platform offering real-time, API-centric recommendations across varied applications. Demonstrated with both MovieLens-100k movie recommendations and entrepreneurial start-up founding use cases, it distinguishes between item and system-level domains for flexible customization, deployment and evaluation. Code and documentation available on GitHub.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Emanuel Lacić</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Leon Fadljević</span>, <span >
+      Dieter Theiler</span>, <span >
+      Dominik Kowald</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2301.01037" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2023_ecir/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-031-28241-6_23" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2023_ecir/" >
+        <img src="/publication/2023_ecir/featured_hub6d95355def2abbe55ae0df5b1f85b5b_235469_150x0_resize_q75_h2_lanczos_3.webp" height="142" width="150"
+            alt="Uptrendz: API-Centric Real-time Recommendations in Multi-Domain Settings" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2021_asonam/" >My friends also prefer diverse music: homophily and link prediction with user preferences for mainstream, novelty, and diversity in music</a>
+    </div>
+
+    
+    <a href="/publication/2021_asonam/"  class="summary-link">
+      <div class="article-style">
+        This study examines homophily on Last.fm based on users&rsquo; preferences for mainstream, novel, or diverse music content. We compare friendship connections to listening profiles and evaluate these features for link prediction. Results show that friends share similar artist preferences, with diversity being a stronger predictor of friendship than mainstream or novelty preferences. While high-novelty users show strong homophily, they have lower artist profile similarity. Mainstream/novel/diverse features perform comparably to artist profiles in link prediction, with combined features yielding best results—though adding no value when graph-based features are available. These insights inform music recommendation, user modeling, and cold-start link prediction.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Dominik Kowald</span>, <span >
+      Markus Schedl</span>, <span >
+      Elisabeth Lex</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3487351.3492706" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_asonam/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3487351.3492706" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2021_asonam/" >
+        <img src="/publication/2021_asonam/featured_hu08d9b6276984b7026dbc5f6fbcb0803a_365549_150x0_resize_q75_h2_lanczos_3.webp" height="155" width="150"
+            alt="My friends also prefer diverse music: homophily and link prediction with user preferences for mainstream, novelty, and diversity in music" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2021_ht/" >Structack: Structure-based Adversarial Attacks on Graph Neural Networks</a>
+    </div>
+
+    
+    <a href="/publication/2021_ht/"  class="summary-link">
+      <div class="article-style">
+        Graph neural networks (GNNs) are vulnerable to adversarial attacks, but most attack methods require node attribute information. This paper introduces Structack, an uninformed attack strategy that exploits only graph structural properties without needing node attributes. By targeting links between nodes with low similarity and low centrality, Structack approaches the effectiveness of informed attacks while being computationally more efficient. The findings demonstrate that structural knowledge alone can significantly degrade GNN performance, contributing to the development of more robust graph-based machine learning methods.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Hussain Hussain</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Elisabeth Lex</span>, <span >
+      Denis Helić</span>, <span >
+      Markus Strohmaier</span>, <span >
+      Roman Kern</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://dl.acm.org/doi/pdf/10.1145/3465336.3475110" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_ht/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3465336.3475110" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2021_ht/" >
+        <img src="/publication/2021_ht/featured_huf36938c0b1ec7124c3ad5266cb99545e_160980_150x0_resize_q75_h2_lanczos_3.webp" height="87" width="150"
+            alt="Structack: Structure-based Adversarial Attacks on Graph Neural Networks" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2020_complenet/" >On the Impact of Communities on Semi-supervised Classification Using Graph Neural Networks</a>
+    </div>
+
+    
+    <a href="/publication/2020_complenet/"  class="summary-link">
+      <div class="article-style">
+        This study examines how community structures in graphs affect Graph Neural Networks (GNNs) in node classification tasks. Through experiments on six datasets, researchers found that community structures significantly impact GNN performance. When nodes in a community mostly share the same label, disrupting the community structure dramatically reduces performance. Conversely, when labels don&rsquo;t correlate with communities, graph structure becomes less relevant and simple feature-based models perform comparably. The research provides insights and guidelines for selecting appropriate models based on graph structure characteristics.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Hussain Hussain</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Elisabeth Lex</span>, <span >
+      Roman Kern</span>, <span >
+      Denis Helić</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2010.16245" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2020_complenet/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-030-65351-4_2" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2020_complenet/" >
+        <img src="/publication/2020_complenet/featured_huc2c9f08f5a9b209ccf16fe6b559ffec3_79039_150x0_resize_q75_h2_lanczos_3.webp" height="91" width="150"
+            alt="On the Impact of Communities on Semi-supervised Classification Using Graph Neural Networks" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2020_ismis/" >Empirical Comparison of Graph Embeddings for Trust-Based Collaborative Filtering</a>
+    </div>
+
+    
+    <a href="/publication/2020_ismis/"  class="summary-link">
+      <div class="article-style">
+        In this work, we study the utility of graph embeddings to generate latent user representations for trust-based collaborative filtering. In a cold-start setting, on three publicly available datasets, we evaluate approaches from four method families - (i) factorization-based, (ii) random walk-based, (iii) deep learning-based, and (iv) the Large-scale Information Network Embedding (LINE) approach. We find that across the four families, random-walk-based approaches consistently achieve the best accuracy. Besides, they result in highly novel and diverse recommendations. Furthermore, our results show that the use of graph embeddings in trust-based collaborative filtering significantly improves user coverage.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Hussain Hussain</span>, <span >
+      Emanuel Lacić</span>, <span >
+      Dominik Kowald</span>, <span >
+      Denis Helić</span>, <span >
+      Elisabeth Lex</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2003.13345" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2020_ismis/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-030-59491-6_17" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2020_ismis/" >
+        <img src="/publication/2020_ismis/featured_hu58fadb66e09374d63e4c7bfa15cb81f3_131236_150x0_resize_q75_h2_lanczos_3.webp" height="111" width="150"
+            alt="Empirical Comparison of Graph Embeddings for Trust-Based Collaborative Filtering" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2019_recsys/" >Should we embed? A study on the online performance of utilizing embeddings for real-time job recommendations</a>
+    </div>
+
+    
+    <a href="/publication/2019_recsys/"  class="summary-link">
+      <div class="article-style">
+        In this work, we present the findings of an online study, where we explore the impact of utilizing embeddings to recommend job postings under real-time constraints. On the Austrian job platform Studo Jobs, we evaluate two popular recommendation scenarios - (i) providing similar jobs and, (ii) personalizing the job postings that are shown on the homepage. Our results show that for recommending similar jobs, we achieve the best online performance in terms of Click-Through Rate when we employ embeddings based on the most recent interaction. To personalize the job postings shown on a user&rsquo;s homepage, however, combining embeddings based on the frequency and recency with which a user interacts with job postings results in the best online performance.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Emanuel Lacić</span>, <span >
+      Markus Reiter-Haas</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Valentin Slawicek</span>, <span >
+      Elisabeth Lex</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://elacic.me/documents/2019_RecSys_Emb.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2019_recsys/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/studo/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3298689.334698" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2019_recsys/" >
+        <img src="/publication/2019_recsys/featured_hud1a694d70097ca50ceb15735af9601ce_107184_150x0_resize_q75_h2_lanczos_3.webp" height="66" width="150"
+            alt="Should we embed? A study on the online performance of utilizing embeddings for real-time job recommendations" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2018_recsys/" >Trust-based collaborative filtering: tackling the cold start problem using regular equivalence</a>
+    </div>
+
+    
+    <a href="/publication/2018_recsys/"  class="summary-link">
+      <div class="article-style">
+        This study uses regular equivalence in trust networks to improve recommendations for cold-start users in Collaborative Filtering systems. By applying this network science measure to user trust relationships, the researchers create a similarity matrix that helps select better user neighbors for recommendation purposes. Testing on the Epinions dataset shows their approach outperforms related methods in recommendation accuracy for new users with few ratings.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Emanuel Lacić</span>, <span >
+      Dominik Kowald</span>, <span >
+      Elisabeth Lex</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1807.06839" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2018_recsys/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3240323.3240404" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2018_recsys/" >
+        <img src="/publication/2018_recsys/featured_hub0d5126bc491beccb41019d59dd20839_81536_150x0_resize_q75_h2_lanczos_3.webp" height="132" width="150"
+            alt="Trust-based collaborative filtering: tackling the cold start problem using regular equivalence" loading="lazy">
       </a>
     
   </div>
@@ -970,7 +1832,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2025 Tomislav Đuričić. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1013,7 +1875,7 @@
   
 
 
-<script src="/hilarious-malabi-6f4d0b.netlify.app/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
+<script src="/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
 
 
 
@@ -1083,7 +1945,7 @@
 
 
 
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1097,7 +1959,7 @@
   
 
 
-<script src="/hilarious-malabi-6f4d0b.netlify.app/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
+<script src="/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
 
 
 
@@ -1133,7 +1995,7 @@
 </div>
 
 
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
 
 
 

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graph Neural Networks | </title>
+    <link>https://tduricic.me/tag/graph-neural-networks/</link>
+      <atom:link href="https://tduricic.me/tag/graph-neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Graph Neural Networks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Graph Neural Networks</title>
+      <link>https://tduricic.me/tag/graph-neural-networks/</link>
+    </image>
+    
+    <item>
+      <title>Beyond-Accuracy: A Review on Diversity, Serendipity, and Fairness in Recommender Systems Based on Graph Neural Networks</title>
+      <link>https://tduricic.me/publication/2023_frontiers/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2023_frontiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The interplay between communities and homophily in semi-supervised classification using graph neural networks</title>
+      <link>https://tduricic.me/publication/2021_ans/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_ans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structack: Structure-based Adversarial Attacks on Graph Neural Networks</title>
+      <link>https://tduricic.me/publication/2021_ht/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_ht/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Impact of Communities on Semi-supervised Classification Using Graph Neural Networks</title>
+      <link>https://tduricic.me/publication/2020_complenet/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2020_complenet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DDAI - Explainable, Verifiable, and Privacy-Preserving Data-Driven AI</title>
+      <link>https://tduricic.me/project/ddai/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/ddai/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_january-2020--december-2023_&#34;&gt;Project Overview &lt;em&gt;(January 2020 – December 2023)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;DDAI&lt;/strong&gt; Comet Module is a research initiative that integrates privacy-preserving, explainable, and verifiable techniques into data-driven AI systems. Funded through the COMET programme (Competence Centers for Excellent Technologies), the project combines machine learning, cryptography, and interpretability methods to deliver secure and understandable AI solutions.&lt;/p&gt;
+&lt;p&gt;The project involves collaboration between the Know Center Research, Graz University of Technology, and numerous international academic and industrial partners. Additional details can be found on the &lt;a href=&#34;https://ddai.know-center.at/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DDAI project website&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;my-contribution&#34;&gt;My Contribution&lt;/h2&gt;
+&lt;p&gt;My PhD research was partly funded by the DDAI project, enabling me to focus on explainability in recommender systems, graph-based machine learning, and modeling user behavior and preferences. My work specifically involved:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Researching methods for enhancing interpretability and transparency in recommender systems.&lt;/li&gt;
+&lt;li&gt;Evaluating novel approaches to graph embeddings and graph neural networks.&lt;/li&gt;
+&lt;li&gt;Modeling user behavior and preferences to improve the accuracy and relevance of recommendations, particularly exploring aspects such as homophily and diversity.&lt;/li&gt;
+&lt;li&gt;Collaborative research within interdisciplinary teams.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I authored several key publications and contributed significantly to additional studies within the project. Please find the full publication list below.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

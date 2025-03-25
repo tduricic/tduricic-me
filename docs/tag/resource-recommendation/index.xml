@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resource Recommendation | </title>
+    <link>https://tduricic.me/tag/resource-recommendation/</link>
+      <atom:link href="https://tduricic.me/tag/resource-recommendation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Resource Recommendation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Resource Recommendation</title>
+      <link>https://tduricic.me/tag/resource-recommendation/</link>
+    </image>
+    
+    <item>
+      <title>Virtuelles Haus der Digitalisierung (VHDD)</title>
+      <link>https://tduricic.me/project/vhdd/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/vhdd/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_august-2018--june-2019_&#34;&gt;Project Overview &lt;em&gt;(August 2018 – June 2019)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;At Know Center Research, we collaborated with Land Niederösterreich to create a personalized recommendation solution for the &amp;ldquo;Virtual House of Digitalization&amp;rdquo; (&lt;a href=&#34;https://virtuelleshaus.at/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Virtuelles Haus der Digitalisierung - VHDD&lt;/a&gt;). This initiative aimed at providing personalized digitalization services to SMEs and experts through a virtual platform, later extended into the physical &lt;a href=&#34;https://www.ecoplus.at/vernetzen/haus-der-digitalisierung&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;House of Digitalization in Tulln&lt;/a&gt;, Lower Austria.&lt;/p&gt;
+&lt;p&gt;The platform offers personalized resource recommendations and matchmaking services to help businesses and individuals find relevant information, partners, and digitalization tools efficiently. Following the initial successful phase, the project was extended by three months with a smaller follow-up initiative.&lt;/p&gt;
+&lt;h2 id=&#34;technical-challenges&#34;&gt;Technical Challenges&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Developing real-time personalized recommendations for diverse content types (events, projects, partners, and resources)&lt;/li&gt;
+&lt;li&gt;Integrating recommender system seamlessly within the VHDD platform infrastructure&lt;/li&gt;
+&lt;li&gt;Addressing cold-start and data sparsity problems in matchmaking and resource recommendations&lt;/li&gt;
+&lt;li&gt;Managing and coordinating internal team efforts and external partner communications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technologies--methods&#34;&gt;Technologies &amp;amp; Methods&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Core Development:&lt;/strong&gt; Java, Apache Solr, Spring Boot, Microservices Architecture, ScaR recommender system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Management:&lt;/strong&gt; CRUD services, Apache Solr indexing and search&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recommendation Algorithms:&lt;/strong&gt; Content-Based Filtering, Collaborative Filtering, Popularity-based approaches&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation &amp;amp; Deployment:&lt;/strong&gt; Real-time recommendation evaluation, continuous integration and deployment, Docker-based infrastructure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results--impact&#34;&gt;Results &amp;amp; Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Successfully deployed multiple personalized recommendation use cases including matchmaking and resource recommendation&lt;/li&gt;
+&lt;li&gt;Enhanced user engagement and content discoverability significantly within the VHDD platform&lt;/li&gt;
+&lt;li&gt;Provided SMEs with an effective tool for digitalization services exploration and matchmaking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;personal-contribution&#34;&gt;Personal Contribution&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Managed a team of three (including myself), covering software engineering, data science, and project management tasks&lt;/li&gt;
+&lt;li&gt;Coordinated communication and collaboration between Know Center Research, external partners, and clients&lt;/li&gt;
+&lt;li&gt;Contributed actively to software engineering, ML algorithm development, and recommendation solution integration&lt;/li&gt;
+&lt;li&gt;Ensured timely delivery and successful deployment of project deliverables, leading to high client satisfaction&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

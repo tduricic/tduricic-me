@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sequential Recommendation | </title>
+    <link>https://tduricic.me/tag/sequential-recommendation/</link>
+      <atom:link href="https://tduricic.me/tag/sequential-recommendation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sequential Recommendation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Sequential Recommendation</title>
+      <link>https://tduricic.me/tag/sequential-recommendation/</link>
+    </image>
+    
+    <item>
+      <title>AVL Research Project: Intelligent Fault Tree Construction for Automotive Diagnostics</title>
+      <link>https://tduricic.me/project/avl/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/avl/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_january-2023--december-2023_&#34;&gt;Project Overview &lt;em&gt;(January 2023 – December 2023)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;AVL Research Project&lt;/strong&gt; was a collaborative effort between Graz University of Technology and AVL List GmbH, focusing on developing intelligent methods to support fault tree construction for automotive diagnostics. The project&amp;rsquo;s success led directly to securing additional funding through the FFG proposal &amp;ldquo;HybridAIR,&amp;rdquo; extending research activities for an additional three years.&lt;/p&gt;
+&lt;h2 id=&#34;research-objectives&#34;&gt;Research Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Address the increasing complexity in automotive systems by automating the traditionally manual fault tree analysis (FTA) process.&lt;/li&gt;
+&lt;li&gt;Enhance diagnostic accuracy and efficiency using sequential recommendation algorithms.&lt;/li&gt;
+&lt;li&gt;Leverage contextual insights by incorporating text embeddings derived from pre-trained language models.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-contributions&#34;&gt;Key Contributions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Reformulated fault tree creation as a sequential recommendation task, significantly improving fault diagnosis accuracy.&lt;/li&gt;
+&lt;li&gt;Developed an innovative framework integrating sequential recommendation and contextual embeddings, preserving expert oversight while reducing manual effort.&lt;/li&gt;
+&lt;li&gt;Conducted comprehensive experiments validating model effectiveness, leading to a publication submitted to the high-impact journal &lt;em&gt;Reliability Engineering &amp;amp; System Safety&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;outcomes-and-impact&#34;&gt;Outcomes and Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Demonstrated significant improvements in fault tree accuracy and construction efficiency, validated on AVL&amp;rsquo;s extensive automotive diagnostic dataset.&lt;/li&gt;
+&lt;li&gt;Provided a scalable and flexible methodology applicable to other safety-critical engineering domains beyond automotive diagnostics.&lt;/li&gt;
+&lt;li&gt;Played a key role in securing long-term research funding (FFG HybridAIR) to continue advancing diagnostic capabilities and machine learning integration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;personal-role&#34;&gt;Personal Role&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Acted as the main contributor and senior researcher on the project, leading both the methodological development and experimental evaluation.&lt;/li&gt;
+&lt;li&gt;Collaborated closely with AVL experts and university researchers to align research outputs with practical automotive industry requirements.&lt;/li&gt;
+&lt;li&gt;Authored and submitted the key research publication outlining the developed methods, experimental validation, and future research directions.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

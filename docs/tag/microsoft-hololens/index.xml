@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft HoloLens | </title>
+    <link>https://tduricic.me/tag/microsoft-hololens/</link>
+      <atom:link href="https://tduricic.me/tag/microsoft-hololens/index.xml" rel="self" type="application/rss+xml" />
+    <description>Microsoft HoloLens</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Microsoft HoloLens</title>
+      <link>https://tduricic.me/tag/microsoft-hololens/</link>
+    </image>
+    
+    <item>
+      <title>DDIA - Data Driven Immersive Analytics</title>
+      <link>https://tduricic.me/project/ddia/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/ddia/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_october-2023--june-2026_&#34;&gt;Project Overview &lt;em&gt;(October 2023 – June 2026)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;DDIA (Data Driven Immersive Analytics)&lt;/strong&gt; project is a COMET-funded initiative aimed at improving immersive analytics and digital twin interactions for industrial applications. Digital twins—interactive digital representations of real-world objects—are vital tools for remote collaboration, operational support, and training. However, the usability and intuitiveness of current immersive methods often fall short, creating barriers to effective interaction.&lt;/p&gt;
+&lt;p&gt;Detailed project information can be found on the official &lt;a href=&#34;https://ddia.at/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DDIA project website&lt;/a&gt; and the &lt;a href=&#34;https://www.ffg.at/sites/default/files/allgemeine_downloads/strukturprogramme/COMET/Factsheets_Modul_EN/COMET_Factsheet_DDIA_EN_bf.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FFG COMET factsheet&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
+&lt;p&gt;DDIA&amp;rsquo;s key goals are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enhancing immersive interaction paradigms and analytics.&lt;/li&gt;
+&lt;li&gt;Improving remote collaboration and training through intuitive AR/VR interfaces.&lt;/li&gt;
+&lt;li&gt;Personalizing user experiences by integrating physiological sensing data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-challenges&#34;&gt;Technical Challenges&lt;/h2&gt;
+&lt;p&gt;Key challenges addressed in this project include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating seamless and intuitive interactions with digital twins in immersive environments&lt;/li&gt;
+&lt;li&gt;Integrating large language models with real-time AR/VR applications while maintaining performance&lt;/li&gt;
+&lt;li&gt;Developing effective multimodal interfaces combining speech, gesture, and traditional input methods&lt;/li&gt;
+&lt;li&gt;Processing and utilizing physiological data to adapt interfaces in real-time&lt;/li&gt;
+&lt;li&gt;Ensuring cross-platform compatibility between different AR/VR hardware ecosystems&lt;/li&gt;
+&lt;li&gt;Balancing computational requirements of AI assistants with the performance constraints of mobile VR/AR devices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technologies-and-methods&#34;&gt;Technologies and Methods&lt;/h2&gt;
+&lt;p&gt;In DDIA, advanced AI and immersive technologies include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Large Language Models:&lt;/strong&gt; Integration of GPT (OpenAI), LLaMA (Meta), Claude (Anthropic), DeepSeek, and Qwen (Alibaba) to build intelligent AI assistants for machine operation and training.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unity-based AR/VR Development:&lt;/strong&gt; Interfaces developed for Meta Quest and Microsoft HoloLens to facilitate immersive, interactive experiences with digital twins.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speech Interaction:&lt;/strong&gt; OpenAI Whisper for speech-to-text and text-to-speech, enabling natural voice-driven interactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Physiological Sensing:&lt;/strong&gt; Capturing physiological data to personalize interactions and enhance user comfort and efficiency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Meta Aria Glasses:&lt;/strong&gt; Expert operation data collection to refine future training and interaction paradigms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;personal-contribution&#34;&gt;Personal Contribution&lt;/h2&gt;
+&lt;p&gt;My involvement in DDIA includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing and developing immersive AR/VR interfaces in Unity for Meta Quest and Microsoft HoloLens.&lt;/li&gt;
+&lt;li&gt;Implementing AI assistants powered by advanced large language models.&lt;/li&gt;
+&lt;li&gt;Integrating OpenAI Whisper to provide robust and intuitive speech interaction.&lt;/li&gt;
+&lt;li&gt;Analyzing immersive and physiological data to enhance personalized interactions and improve collaborative workflows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Through these activities, DDIA aims to deliver user-friendly, personalized digital experiences, significantly advancing remote collaboration, support, and training in industrial settings.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,33 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | </title>
-    <link>hilarious-malabi-6f4d0b.netlify.app/publication-type/2/</link>
-      <atom:link href="hilarious-malabi-6f4d0b.netlify.app/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tduricic.me/publication-type/2/</link>
+      <atom:link href="https://tduricic.me/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
-      <link>hilarious-malabi-6f4d0b.netlify.app/publication-type/2/</link>
+      <link>https://tduricic.me/publication-type/2/</link>
     </image>
     
     <item>
-      <title>An example journal article</title>
-      <link>hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Beyond-Accuracy: A Review on Diversity, Serendipity, and Fairness in Recommender Systems Based on Graph Neural Networks</title>
+      <link>https://tduricic.me/publication/2023_frontiers/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2023_frontiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The interplay between communities and homophily in semi-supervised classification using graph neural networks</title>
+      <link>https://tduricic.me/publication/2021_ans/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_ans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design Implications for Explanations: A Case Study on Supporting Reflective Assessment of Potentially Misleading Videos</title>
+      <link>https://tduricic.me/publication/2021_frontiers/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_frontiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Should We Embed in Chemistry? A Comparison of Unsupervised Transfer Learning with PCA, UMAP, and VAE on Molecular Fingerprints</title>
+      <link>https://tduricic.me/publication/2021_mdpi/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_mdpi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gone in 30 days! Predictions for car import planning</title>
+      <link>https://tduricic.me/publication/2018_it/</link>
+      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2018_it/</guid>
+      <description></description>
     </item>
     
   </channel>

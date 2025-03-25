@@ -2,66 +2,142 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | </title>
-    <link>hilarious-malabi-6f4d0b.netlify.app/publication/</link>
-      <atom:link href="hilarious-malabi-6f4d0b.netlify.app/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://tduricic.me/publication/</link>
+      <atom:link href="https://tduricic.me/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>hilarious-malabi-6f4d0b.netlify.app/publication/</link>
+      <link>https://tduricic.me/publication/</link>
     </image>
     
     <item>
-      <title>An example preprint / working paper</title>
-      <link>hilarious-malabi-6f4d0b.netlify.app/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>hilarious-malabi-6f4d0b.netlify.app/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>AI-Powered Immersive Assistance for Interactive Task Execution in Industrial Environments</title>
+      <link>https://tduricic.me/publication/2024_ecai/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2024_ecai/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>An example journal article</title>
-      <link>hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>hilarious-malabi-6f4d0b.netlify.app/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Beyond-Accuracy: A Review on Diversity, Serendipity, and Fairness in Recommender Systems Based on Graph Neural Networks</title>
+      <link>https://tduricic.me/publication/2023_frontiers/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2023_frontiers/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>hilarious-malabi-6f4d0b.netlify.app/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>PyChemFlow: an automated pre-processing pipeline in Python for reproducible machine learning on chemical data</title>
+      <link>https://tduricic.me/publication/2023_chemrxiv/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2023_chemrxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uptrendz: API-Centric Real-time Recommendations in Multi-Domain Settings</title>
+      <link>https://tduricic.me/publication/2023_ecir/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2023_ecir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My friends also prefer diverse music: homophily and link prediction with user preferences for mainstream, novelty, and diversity in music</title>
+      <link>https://tduricic.me/publication/2021_asonam/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_asonam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The interplay between communities and homophily in semi-supervised classification using graph neural networks</title>
+      <link>https://tduricic.me/publication/2021_ans/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_ans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design Implications for Explanations: A Case Study on Supporting Reflective Assessment of Potentially Misleading Videos</title>
+      <link>https://tduricic.me/publication/2021_frontiers/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_frontiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structack: Structure-based Adversarial Attacks on Graph Neural Networks</title>
+      <link>https://tduricic.me/publication/2021_ht/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_ht/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Should We Embed in Chemistry? A Comparison of Unsupervised Transfer Learning with PCA, UMAP, and VAE on Molecular Fingerprints</title>
+      <link>https://tduricic.me/publication/2021_mdpi/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_mdpi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-platform analysis of user comments in YouTube videos linked on Reddit’s conspiracy theory forum</title>
+      <link>https://tduricic.me/publication/2021_ic2s2/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_ic2s2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Impact of Communities on Semi-supervised Classification Using Graph Neural Networks</title>
+      <link>https://tduricic.me/publication/2020_complenet/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2020_complenet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empirical Comparison of Graph Embeddings for Trust-Based Collaborative Filtering</title>
+      <link>https://tduricic.me/publication/2020_ismis/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2020_ismis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Should we embed? A study on the online performance of utilizing embeddings for real-time job recommendations</title>
+      <link>https://tduricic.me/publication/2019_recsys/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2019_recsys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting weak ties in trust-based recommender systems using regular equivalence</title>
+      <link>https://tduricic.me/publication/2019_eurocss/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2019_eurocss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trust-based collaborative filtering: tackling the cold start problem using regular equivalence</title>
+      <link>https://tduricic.me/publication/2018_recsys/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2018_recsys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gone in 30 days! Predictions for car import planning</title>
+      <link>https://tduricic.me/publication/2018_it/</link>
+      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2018_it/</guid>
+      <description></description>
     </item>
     
   </channel>

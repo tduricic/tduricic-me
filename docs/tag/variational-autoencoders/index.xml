@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Variational Autoencoders | </title>
+    <link>https://tduricic.me/tag/variational-autoencoders/</link>
+      <atom:link href="https://tduricic.me/tag/variational-autoencoders/index.xml" rel="self" type="application/rss+xml" />
+    <description>Variational Autoencoders</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Variational Autoencoders</title>
+      <link>https://tduricic.me/tag/variational-autoencoders/</link>
+    </image>
+    
+    <item>
+      <title>Should We Embed in Chemistry? A Comparison of Unsupervised Transfer Learning with PCA, UMAP, and VAE on Molecular Fingerprints</title>
+      <link>https://tduricic.me/publication/2021_mdpi/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2021_mdpi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

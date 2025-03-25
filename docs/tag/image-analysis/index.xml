@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Analysis | </title>
+    <link>https://tduricic.me/tag/image-analysis/</link>
+      <atom:link href="https://tduricic.me/tag/image-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Image Analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Image Analysis</title>
+      <link>https://tduricic.me/tag/image-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Photo Calendar Recommendation System</title>
+      <link>https://tduricic.me/project/ifolor/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/project/ifolor/</guid>
+      <description>&lt;h2 id=&#34;project-overview-_march-2016--december-2016_&#34;&gt;Project Overview &lt;em&gt;(March 2016 – December 2016)&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;At Know Center Research, I developed a machine learning system for a digital photo printing company. The system intelligently assigned user-uploaded images to appropriate calendar months, significantly enhancing the user experience by automating photo selection.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quick Highlights:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;End-to-end ML pipeline analyzing image metadata&lt;/li&gt;
+&lt;li&gt;Technologies: Java, Spring Boot, RabbitMQ, Apache Solr, PySpark, Weka&lt;/li&gt;
+&lt;li&gt;Achieved substantial accuracy improvements over manual/random assignments&lt;/li&gt;
+&lt;li&gt;Scalable solution suitable for production workloads&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-challenges&#34;&gt;Technical Challenges&lt;/h2&gt;
+&lt;p&gt;Key challenges addressed included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing a scalable microservices architecture for image processing&lt;/li&gt;
+&lt;li&gt;Extracting and analyzing relevant image metadata efficiently&lt;/li&gt;
+&lt;li&gt;Developing accurate predictive models for assigning images to calendar months&lt;/li&gt;
+&lt;li&gt;Establishing a robust, scalable data pipeline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technologies--methods&#34;&gt;Technologies &amp;amp; Methods&lt;/h2&gt;
+&lt;p&gt;The solution leveraged various technologies and approaches:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Architecture:&lt;/strong&gt; Microservices using Java 8, Spring Boot, Swagger, and RabbitMQ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Storage:&lt;/strong&gt; Apache Solr for efficient metadata indexing and retrieval&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Machine Learning:&lt;/strong&gt; Weka (J48, Random Forest, Naive Bayes classifiers)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Processing:&lt;/strong&gt; PySpark, HDFS, Hadoop, and Python for large-scale analysis and visualization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD:&lt;/strong&gt; Jenkins, Maven, Git, JUnit, and integration testing for quality assurance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Development:&lt;/strong&gt; IntelliJ IDEA, Agile methodology with Scrum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results--impact&#34;&gt;Results &amp;amp; Impact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Significantly improved accuracy in month assignment compared to manual/random assignments&lt;/li&gt;
+&lt;li&gt;Robust handling of images with incomplete metadata&lt;/li&gt;
+&lt;li&gt;Enhanced user experience through streamlined calendar creation&lt;/li&gt;
+&lt;li&gt;Delivered a scalable, reliable system capable of production deployment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;personal-contribution&#34;&gt;Personal Contribution&lt;/h2&gt;
+&lt;p&gt;As the primary developer on this project, I:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and implemented the data extraction pipeline&lt;/li&gt;
+&lt;li&gt;Conducted feature engineering and classifier evaluations using Weka&lt;/li&gt;
+&lt;li&gt;Performed large-scale data analysis using PySpark and Hadoop&lt;/li&gt;
+&lt;li&gt;Developed scalable microservices architecture adhering to industry best practices&lt;/li&gt;
+&lt;li&gt;Created comprehensive test suites (JUnit, integration tests)&lt;/li&gt;
+&lt;li&gt;Authored detailed project documentation&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

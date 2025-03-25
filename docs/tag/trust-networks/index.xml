@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trust Networks | </title>
+    <link>https://tduricic.me/tag/trust-networks/</link>
+      <atom:link href="https://tduricic.me/tag/trust-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Trust Networks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png</url>
+      <title>Trust Networks</title>
+      <link>https://tduricic.me/tag/trust-networks/</link>
+    </image>
+    
+    <item>
+      <title>Empirical Comparison of Graph Embeddings for Trust-Based Collaborative Filtering</title>
+      <link>https://tduricic.me/publication/2020_ismis/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2020_ismis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting weak ties in trust-based recommender systems using regular equivalence</title>
+      <link>https://tduricic.me/publication/2019_eurocss/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2019_eurocss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trust-based collaborative filtering: tackling the cold start problem using regular equivalence</title>
+      <link>https://tduricic.me/publication/2018_recsys/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://tduricic.me/publication/2018_recsys/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

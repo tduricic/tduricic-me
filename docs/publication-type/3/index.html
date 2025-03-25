@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: September 15, 2024 --><html lang="en-us" >
+<!-- Last Published: March 25, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -70,7 +70,7 @@
 
   
 
-  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
 
   
   
@@ -212,7 +212,7 @@
   
   
   
-  <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
 
   
   
@@ -227,8 +227,8 @@
   
     
     
-    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/hilarious-malabi-6f4d0b.netlify.app/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
   
 
   
@@ -236,6 +236,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0G6M6XGFC9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-0G6M6XGFC9', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -280,17 +319,17 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="hilarious-malabi-6f4d0b.netlify.app/publication-type/3/" />
-<link rel="canonical" href="hilarious-malabi-6f4d0b.netlify.app/publication-type/3/" />
+<link rel="alternate" hreflang="en-us" href="https://tduricic.me/publication-type/3/" />
+<link rel="canonical" href="https://tduricic.me/publication-type/3/" />
 
 
 
-  <link rel="manifest" href="hilarious-malabi-6f4d0b.netlify.app/manifest.webmanifest" />
+  <link rel="manifest" href="/manifest.webmanifest" />
 
 
 
-<link rel="icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -315,14 +354,14 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+<meta property="twitter:image" content="https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="" />
-<meta property="og:url" content="hilarious-malabi-6f4d0b.netlify.app/publication-type/3/" />
+<meta property="og:url" content="https://tduricic.me/publication-type/3/" />
 <meta property="og:title" content="3 | " />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="/hilarious-malabi-6f4d0b.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://tduricic.me/media/icon_hu426186ca27e6e0a64883b3cf83548979_10543_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2019-04-07T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2023-07-20T00:00:00&#43;00:00" />
   
 
 
@@ -333,14 +372,14 @@
 
 
 
-
-  
-  
-  
 
   
   
-    <link rel="alternate" href="hilarious-malabi-6f4d0b.netlify.app/publication-type/3/index.xml" type="application/rss+xml" title="" />
+  
+
+  
+  
+    <link rel="alternate" href="/publication-type/3/index.xml" type="application/rss+xml" title="" />
   
 
   
@@ -378,7 +417,7 @@
   
   
   
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
 
   
 
@@ -446,7 +485,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+        <a class="navbar-brand" href="/"></a>
       </div>
       
 
@@ -459,7 +498,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="hilarious-malabi-6f4d0b.netlify.app/"></a>
+        <a class="navbar-brand" href="/"></a>
       </div>
       
 
@@ -502,7 +541,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#about"><span>Home</span></a>
+            <a class="nav-link " href="/#about"><span>Home</span></a>
           </li>
 
           
@@ -539,7 +578,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#projects"><span>Projects</span></a>
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
           </li>
 
           
@@ -576,7 +615,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#publications"><span>Publications</span></a>
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
           </li>
 
           
@@ -613,7 +652,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#talks"><span>Talks</span></a>
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
           </li>
 
           
@@ -650,7 +689,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/hilarious-malabi-6f4d0b.netlify.app/#contact"><span>Contact</span></a>
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
           
@@ -784,13 +823,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="hilarious-malabi-6f4d0b.netlify.app/publication/preprint/" >An example preprint / working paper</a>
+      <a href="/publication/2023_chemrxiv/" >PyChemFlow: an automated pre-processing pipeline in Python for reproducible machine learning on chemical data</a>
     </div>
 
     
-    <a href="hilarious-malabi-6f4d0b.netlify.app/publication/preprint/"  class="summary-link">
+    <a href="/publication/2023_chemrxiv/"  class="summary-link">
       <div class="article-style">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+        PyChemFlow is a Python library for automated, reproducible data pre-processing that leverages transformer objects built on minimal dependencies. It enables one-line execution with train-validation splits, persistent storage of transformers and metadata, and customizable data manipulation steps, making it ideal for applications requiring strict reproducibility.
       </div>
     </a>
     
@@ -803,8 +842,12 @@
       <div>
         
 
-  <span class="author-highlighted">
-      Tomislav Đuričić</span>
+  <span >
+      Mario Lovrić</span>, <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Hussain Hussain</span>, <span >
+      Bono Lucić</span>, <span >
+      Roman Kern</span>
       </div>
       
     </div>
@@ -826,86 +869,33 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/64b9082aae3d1a7b0d0a53dc/original/py-chem-flow-an-automated-pre-processing-pipeline-in-python-for-reproducible-machine-learning-on-chemical-data.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
-  Dataset
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2023_chemrxiv/cite.bib">
+  Cite
 </a>
 
 
 
-  
-    
-  
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
-  Poster
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.26434/chemrxiv-2023-3zpw0" target="_blank" rel="noopener">
+  DOI
 </a>
 
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="hilarious-malabi-6f4d0b.netlify.app/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/hilarious-malabi-6f4d0b.netlify.app/#" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    Custom Link</a>
 
 
     </div>
@@ -916,9 +906,242 @@
     
     
       
-      <a href="hilarious-malabi-6f4d0b.netlify.app/publication/preprint/" >
-        <img src="/hilarious-malabi-6f4d0b.netlify.app/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_150x0_resize_q75_h2_lanczos.webp" height="100" width="150"
-            alt="An example preprint / working paper" loading="lazy">
+      <a href="/publication/2023_chemrxiv/" >
+        <img src="/publication/2023_chemrxiv/featured_hu643f963c11c52dc7385f31e240f792c0_53667_150x0_resize_q75_h2_lanczos.webp" height="68" width="150"
+            alt="PyChemFlow: an automated pre-processing pipeline in Python for reproducible machine learning on chemical data" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2021_ic2s2/" >Cross-platform analysis of user comments in YouTube videos linked on Reddit’s conspiracy theory forum</a>
+    </div>
+
+    
+    <a href="/publication/2021_ic2s2/"  class="summary-link">
+      <div class="article-style">
+        This study examines how language in YouTube comments changes after videos are shared on Reddit&rsquo;s conspiracy forum. Analyzing 859 videos and 180,000+ comments, we found YouTube comments adopt linguistic patterns similar to r/conspiracy after Reddit exposure, evidenced by reduced text distribution distances. While sentiment remains unchanged, vocabulary measurably shifts toward conspiracy forum discourse, demonstrating cross-platform influence on user language.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Volker Seiser</span>, <span >
+      Elisabeth Lex</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://easychair.org/publications/preprint/cvtt/open" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2021_ic2s2/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ddai/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/978-3-031-28241-6_23" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2021_ic2s2/" >
+        <img src="/publication/2021_ic2s2/featured_hue6e09ba7f9ac36f0600e2c7f2fff1509_201183_150x0_resize_q75_h2_lanczos_3.webp" height="54" width="150"
+            alt="Cross-platform analysis of user comments in YouTube videos linked on Reddit’s conspiracy theory forum" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2019_eurocss/" >Exploiting weak ties in trust-based recommender systems using regular equivalence</a>
+    </div>
+
+    
+    <a href="/publication/2019_eurocss/"  class="summary-link">
+      <div class="article-style">
+        This study explores using regular equivalence in trust networks to improve Collaborative Filtering recommendations, particularly for cold-start users. While traditional CF suffers from data sparsity when users rate few items, incorporating trust relationships (explicit or implicit) can enhance recommendations. The research applies an iterative regular equivalence calculation to generate similarity matrices for neighbor selection, examining how both strong and weak network ties affect recommendation quality. Evaluations on Epinions data demonstrate that incorporating weak ties alongside strong ties significantly improves recommendation accuracy for cold-start users in trust-based recommender systems.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      Tomislav Đuričić</span>, <span >
+      Emanuel Lacić</span>, <span >
+      Dominik Kowald</span>, <span >
+      Elisabeth Lex</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/1907.11620" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/2019_eurocss/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3298689.334698" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/publication/2019_eurocss/" >
+        <img src="/publication/2019_eurocss/featured_hu7acc36dd05d1f734119ced224d5516fb_158047_150x0_resize_q75_h2_lanczos_3.webp" height="114" width="150"
+            alt="Exploiting weak ties in trust-based recommender systems using regular equivalence" loading="lazy">
       </a>
     
   </div>
@@ -986,7 +1209,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2025 Tomislav Đuričić. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1029,7 +1252,7 @@
   
 
 
-<script src="/hilarious-malabi-6f4d0b.netlify.app/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
+<script src="/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
 
 
 
@@ -1099,7 +1322,7 @@
 
 
 
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1113,7 +1336,7 @@
   
 
 
-<script src="/hilarious-malabi-6f4d0b.netlify.app/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
+<script src="/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
 
 
 
@@ -1149,7 +1372,7 @@
 </div>
 
 
-  <script src="/hilarious-malabi-6f4d0b.netlify.app/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
 
 
 
