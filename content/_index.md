@@ -90,7 +90,7 @@ sections:
               * Designing and implementing recommender systems across multiple domains
               * Authoring scientific publications on recommender systems and ML applications
               * Bridging academic research and practical industry applications
-        - title: Machine Learning Engineer & Data Scientist
+        - title: Software & ML Engineer / Data Scientist
           company: Know Center Research
           company_url: 'https://www.know-center.at/'
           company_logo: org-kc
